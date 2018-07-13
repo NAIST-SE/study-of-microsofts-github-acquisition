@@ -1,86 +1,112 @@
 var responses = 209;
-var series = [['Project Manager/Project Leader', 41],
-['Core contributor', 52],
-['Casual contributor', 129],
-['User', 5],
-['administrator, integrator', 1],
-['Tester', 1],
-['I use it for my own computing/donate to projects who develop my distro.',1],
-['Third party software developer',1],
-['Independent open source developer', 1]]
 
+var themeColor = ['#2f7ed8', '#0d233a', '#8bbc21', '#910000', '#1aadce',
+'#492970', '#f28f43', '#77a1e5', '#c42525', '#a6c96a'];
+var redBlueColor = ['blue','red'];
+
+var agreeLabel = ['No opinion','Strongly disagree','Disagree','Neutral','Agree','Strongly agree']
+
+var createSeries= function(label, data) {
+  series = [];
+  for(let i=0; i<data.length; i++) {
+    series[i] = [label[i], data[i]]
+  }
+  return series;
+};
+
+var style = {
+    fontSize: '13px',
+    fontFamily: 'Helvetica'
+};
+
+var xAxis = {
+  type: 'category',
+  labels: {
+    // rotation: -45,
+    style: style
+    }
+  }
+
+var yAxis = function(max=undefined) {
+  return {
+    min: 0,
+    title: { text: 'Responses' },
+    max :max
+  }
+}
+
+var config = [
+  // question 1
+  {
+    type: 'bar',
+    question: 'Which of the roles best describe your main activities within the Linux (distributions or kernel) or BSD?',
+    data: [
+      ['Project Manager/Project Leader', 41],
+      ['Core contributor', 52],
+      ['Casual contributor', 129],
+      ['User', 5],
+      ['administrator, integrator', 1],
+      ['Tester', 1],
+      ['I use it for my own computing/donate to projects who develop my distro.',1],
+      ['Third party software developer',1],
+      ['Independent open source developer', 1]
+    ]
+  },
+  // question2
+  {
+    type: 'pie',
+    question: 'Are you a fan of GitHub?',
+    data: [
+      { name: 'Yes', y: 138 }, 
+      { name: 'No',  y: 80 }
+    ]
+  },
+  // question3
+  {
+    type: 'column',
+    question: 'GitHub appeals to you as it grants access to over 27 million users in this community.',
+    data: [47,15,18,36,57,46],
+  },
+  // question 4 
+  {
+    type: 'column',
+    question: 'GitHub has a set of useful functions (e.g., GitHub Page, Project Management) that every developer will benefit.',
+    data: [15,10,23,44,74,53]
+  }
+]
 
 $(function() {
   $(document).ready(function() {
     Highcharts.setOptions({
-      colors: ['#2f7ed8', '#0d233a', '#8bbc21', '#910000', '#1aadce',
-      '#492970', '#f28f43', '#77a1e5', '#c42525', '#a6c96a']
-      });
+      colors: themeColor
+    });
+
     var chart11 = new Highcharts.Chart('1-1', {
-      chart: {
-          type: 'bar'
-      },
-      title: {
-          text: 'Which of the roles best describe your main activities within the Linux (distributions or kernel) or BSD?'
-      },
-      // subtitle: {
-      //     text: 'Source: <a href="http://en.wikipedia.org/wiki/List_of_cities_proper_by_population">Wikipedia</a>'
-      // },
-      xAxis: {
-          type: 'category',
-          labels: {
-              // rotation: -45,
-              style: {
-                  fontSize: '12px',
-                  fontFamily: 'Verdana, sans-serif'
-              }
-          }
-      },
-      yAxis: {
-          min: 0,
-          title: {
-              text: 'Responses'
-          }
-      },
-      legend: {
-          enabled: false
-      },
-      tooltip: {
-          pointFormat: '{point.y}'
-      },
+      chart: { type: config[0].type },
+      title: { text: config[0].question },
+      xAxis: xAxis,
+      yAxis: yAxis(),
+      legend: { enabled: false },
+      tooltip: { pointFormat: '{point.y}' },
       series: [{
           name: 'Population',
-          data: [
-              ['Project Manager/Project Leader', 41],
-              ['Core contributor', 52],
-              ['Casual contributor', 129],
-              ['User', 5],
-              ['administrator, integrator', 1],
-              ['Tester', 1],
-              ['I use it for my own computing/donate to projects who develop my distro.',1],
-              ['Third party software developer',1],
-              ['Independent open source developer', 1],
-          ],
+          data: config[0].data,
           dataLabels: {
               enabled: true,
               // rotation: -90,
               color: '#FFFFFF',
               align: 'right',
               formatter: function() {
-                  var percent =  100*series[this.x][1]/responses;
-                  return series[this.x][1] + '  (' + Highcharts.numberFormat(percent, 1) + '%)'
+                  var percent =  100*config[0].data[this.x][1]/responses;
+                  return config[0].data[this.x][1] + '  (' + Highcharts.numberFormat(percent, 1) + '%)'
               },
-              style: {
-                  fontSize: '13px',
-                  fontFamily: 'Helvetica',
-                  // textOutline: '1px'
-              }
+              style: style
           }
       }]
     });
 
     Highcharts.setOptions({
-      colors: ['blue','red']
+      colors: redBlueColor
     });
 
     var chart12 = new Highcharts.Chart('1-2', {
@@ -88,14 +114,10 @@ $(function() {
         plotBackgroundColor: null,
         plotBorderWidth: null,
         plotShadow: false,
-        type: 'pie'
+        type: config[1].type
       },
-      title: {
-        text: 'Are you a fan of GitHub?'
-      },
-      tooltip: {
-        pointFormat: '{point.y} ({point.percentage:.1f}%)</b>'
-      },
+      title: { text: config[1].question },
+      tooltip: { pointFormat: '{point.y} ({point.percentage:.1f}%)</b>'},
       plotOptions: {
         pie: {
           allowPointSelect: true,
@@ -103,23 +125,74 @@ $(function() {
           dataLabels: {
             enabled: true,
             format: '<b>{point.name}</b>: {point.percentage:.1f} %',
-            // style: {
-            // 		color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
-            // }
           }
         }
       },
       series: [{
         name: 'Brands',
         colorByPoint: true,
-        data: [{
-          name: 'Yes',
-          y: 133
-        }, {
-          name: 'No',
-          y: 75
-        }]
+        data: config[1].data
       }]
     });
+
+    Highcharts.setOptions({
+      colors: themeColor
+    });
+    var chart13 = new Highcharts.Chart('1-3', {
+      chart: { type: 'column' },
+      title: { text: config[2].question },
+      xAxis: xAxis,
+      yAxis: yAxis(),
+      legend: {
+        enabled: false
+      },
+      tooltip: {
+        pointFormat: '{point.y}</b>'
+      },
+      series: [{
+        name: 'Population',
+        data: createSeries(agreeLabel, config[2].data),
+        dataLabels: {
+          enabled: true,
+          color: '#FFFFFF',
+          formatter: function(){
+            var pcnt = (this.y / responses) * 100;
+            return this.y + ' ('+ Highcharts.numberFormat(pcnt,1) + ')%';
+    
+          },
+          y: 10, // 10 pixels down from the top
+          style: style
+        }
+      }]
+    });
+
+    var chart14 = new Highcharts.Chart('1-4', {
+      chart: { type: 'column' },
+      title: { text: config[3].question },
+      xAxis: xAxis,
+      yAxis: yAxis(),
+      legend: {
+        enabled: false
+      },
+      tooltip: {
+        pointFormat: '{point.y}</b>'
+      },
+      series: [{
+        name: 'Population',
+        data: createSeries(agreeLabel, config[3].data),
+        dataLabels: {
+          enabled: true,
+          color: '#FFFFFF',
+          formatter: function(){
+            var pcnt = (this.y / responses) * 100;
+            return this.y + ' ('+ Highcharts.numberFormat(pcnt,1) + ')%';
+    
+          },
+          y: 10, // 10 pixels down from the top
+          style: style
+        }
+      }]
+    });
+
   });
 });

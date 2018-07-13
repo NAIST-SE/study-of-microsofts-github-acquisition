@@ -1,12 +1,12 @@
-var data = [45,15,17,35,55,42];
+var data13 = [45,15,17,35,55,42];
 var agreeLabel = ['No opinion','Strongly disagree','Disagree','Neutral','Agree','Strongly agree']
 
-var question = 'GitHub appeals to you as it grants access to over 27 million users in this community.';
-var series = [];
-var dataSum = 0;
-for (var i=0;i < data.length;i++) {
-    dataSum += data[i]
-	series[i] = [agreeLabel[i], data[i]]
+var question13 = 'GitHub appeals to you as it grants access to over 27 million users in this community.';
+var series13 = [];
+var data13Sum = 0;
+for (var i=0;i < data13.length;i++) {
+    data13Sum += data13[i]
+	series13[i] = [agreeLabel[i], data13[i]]
 }
 
 Highcharts.chart('container', {
@@ -14,7 +14,7 @@ Highcharts.chart('container', {
 		type: 'column'
 	},
 	title: {
-		text: question
+		text: question13
 	},
 	// subtitle: {
 	//     text: 'Source: <a href="http://en.wikipedia.org/wiki/List_of_cities_proper_by_population">Wikipedia</a>'
@@ -43,14 +43,14 @@ Highcharts.chart('container', {
 	},
 	series: [{
 		name: 'Population',
-		data: series,
+		data: series13,
 		dataLabels: {
 			enabled: true,
 			// rotation: -90,
 			color: '#FFFFFF',
 			// align: 'right',
 			formatter: function(){
-				var pcnt = (this.y / dataSum) * 100;
+				var pcnt = (this.y / data13Sum) * 100;
 				// return agreeLabel[this.x] + ' '+ Highcharts.numberFormat(pcnt) + '%';
 				return this.y + ' ('+ Highcharts.numberFormat(pcnt) + ')%';
 
