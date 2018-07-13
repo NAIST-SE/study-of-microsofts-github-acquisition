@@ -7,8 +7,8 @@ locale:             en_US
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: ""
 # use when run @ GitHub
-baseurl: "/microsoftGitHub" # the subpath of your site, e.g. /blog
-url: "https://ammyblabla.github.io" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://ammyblabla.github.io/microsoftGitHub" # the base hostname & protocol for your site
 
 
 
