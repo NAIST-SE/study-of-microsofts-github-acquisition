@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-07-13T11:25:33+09:00</updated><id>/</id><title type="html">Impact of Microsoft Acquisition of GitHub</title><subtitle>Jekyll version of the Massively theme by HTML5UP</subtitle><entry><title type="html">Result Google Form 1</title><link href="/blog/result-google-form-1/" rel="alternate" type="text/html" title="Result Google Form 1" /><published>2018-07-12T00:00:00+09:00</published><updated>2018-07-12T00:00:00+09:00</updated><id>/blog/result-google-form-1</id><content type="html" xml:base="/blog/result-google-form-1/">&lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-07-13T11:42:41+09:00</updated><id>/</id><title type="html">Impact of Microsoft Acquisition of GitHub</title><subtitle>Jekyll version of the Massively theme by HTML5UP</subtitle><entry><title type="html">Result Google Form 1</title><link href="/blog/result-google-form-1/" rel="alternate" type="text/html" title="Result Google Form 1" /><published>2018-07-12T00:00:00+09:00</published><updated>2018-07-12T00:00:00+09:00</updated><id>/blog/result-google-form-1</id><content type="html" xml:base="/blog/result-google-form-1/">&lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js&quot;&gt;&lt;/script&gt;
 
 &lt;script src=&quot;https://code.highcharts.com/highcharts.js&quot;&gt;&lt;/script&gt;
 
@@ -17,7 +17,10 @@
   &lt;div class=&quot;chart&quot; id=&quot;1-3&quot;&gt;&lt;/div&gt;
   &lt;div class=&quot;spacer&quot;&gt;&lt;/div&gt;
   &lt;div class=&quot;chart&quot; id=&quot;1-4&quot;&gt;&lt;/div&gt;
-
+  &lt;div class=&quot;spacer&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;chart&quot; id=&quot;1-5&quot;&gt;&lt;/div&gt;  
+  &lt;div class=&quot;spacer&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;chart&quot; id=&quot;1-6&quot;&gt;&lt;/div&gt;
 
 &lt;/div&gt;
 

@@ -72,6 +72,20 @@ var config = [
     type: 'column',
     question: 'GitHub has a set of useful functions (e.g., GitHub Page, Project Management) that every developer will benefit.',
     data: [15,10,23,44,74,53]
+  },
+  // question 5
+  {
+    type: 'column',
+    question: 'GitHub does not implement my preferred functions or is missing other functions that I need as a developer.',
+    data: [53,58,39,32,22,15],
+    max :60
+  },
+  // question 6
+  {
+    type: 'column',
+    question: 'The GitHub platform is superior compared to similar platforms.',
+    data: [30,48,50,44,30,17],
+    max :60
   }
 ]
 
@@ -180,6 +194,62 @@ $(function() {
       series: [{
         name: 'Population',
         data: createSeries(agreeLabel, config[3].data),
+        dataLabels: {
+          enabled: true,
+          color: '#FFFFFF',
+          formatter: function(){
+            var pcnt = (this.y / responses) * 100;
+            return this.y + ' ('+ Highcharts.numberFormat(pcnt,1) + ')%';
+    
+          },
+          y: 10, // 10 pixels down from the top
+          style: style
+        }
+      }]
+    });
+
+    var chart15 = new Highcharts.Chart('1-5', {
+      chart: { type: config[4].type },
+      title: { text: config[4].question },
+      xAxis: xAxis,
+      yAxis: yAxis(config[4].max),
+      legend: {
+        enabled: false
+      },
+      tooltip: {
+        pointFormat: '{point.y}</b>'
+      },
+      series: [{
+        name: 'Population',
+        data: createSeries(agreeLabel, config[4].data),
+        dataLabels: {
+          enabled: true,
+          color: '#FFFFFF',
+          formatter: function(){
+            var pcnt = (this.y / responses) * 100;
+            return this.y + ' ('+ Highcharts.numberFormat(pcnt,1) + ')%';
+    
+          },
+          y: 10, // 10 pixels down from the top
+          style: style
+        }
+      }]
+    });
+
+    var chart16 = new Highcharts.Chart('1-6', {
+      chart: { type: config[5].type },
+      title: { text: config[5].question },
+      xAxis: xAxis,
+      yAxis: yAxis(config[5].max),
+      legend: {
+        enabled: false
+      },
+      tooltip: {
+        pointFormat: '{point.y}</b>'
+      },
+      series: [{
+        name: 'Population',
+        data: createSeries(agreeLabel, config[5].data),
         dataLabels: {
           enabled: true,
           color: '#FFFFFF',

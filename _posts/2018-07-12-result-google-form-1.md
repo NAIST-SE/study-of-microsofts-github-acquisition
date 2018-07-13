@@ -19,7 +19,10 @@ comments: true
   <div class="chart" id="1-3"></div>
   <div class="spacer"></div>
   <div class="chart" id="1-4"></div>
-
+  <div class="spacer"></div>
+  <div class="chart" id="1-5"></div>  
+  <div class="spacer"></div>
+  <div class="chart" id="1-6"></div>
 
 </div>
 
