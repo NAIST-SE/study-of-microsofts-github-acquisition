@@ -1,10 +1,16 @@
 # Site
-title:              Massively
+title:              Impact of Microsoft Acquisition of GitHub
 bio:                'Jekyll version of the Massively theme by HTML5UP'
 description:        "Jekyll version of the Massively theme by HTML5UP"
 locale:             en_US
+# use when run locally
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: ""
+# use when run @ GitHub
 baseurl: "microsoftGitHub" # the subpath of your site, e.g. /blog
 url: "https://ammyblabla.github.io" # the base hostname & protocol for your site
+
+
 
 defaults:
 - scope:
@@ -38,12 +44,12 @@ analytics-id:       "default"
 twitter:            default
 facebook:           default
 instagram:          default
-github:             default
+github:             naist-se
 
 # personal
-location:           Los Angeles, CA
-phone:              310-318-5555
-email:              info@default.com
+location:           8916-5 Takayama-cho, Ikoma, Nara 630-0192, JAPAN
+phone:              +81-(743)-72-5111
+email:              natnaree.asavaseri.mt9@is.naist.jp
 
 # Gems
 gems:
