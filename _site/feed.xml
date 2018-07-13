@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-07-13T11:42:41+09:00</updated><id>/</id><title type="html">Impact of Microsoft Acquisition of GitHub</title><subtitle>Jekyll version of the Massively theme by HTML5UP</subtitle><entry><title type="html">Result Google Form 1</title><link href="/blog/result-google-form-1/" rel="alternate" type="text/html" title="Result Google Form 1" /><published>2018-07-12T00:00:00+09:00</published><updated>2018-07-12T00:00:00+09:00</updated><id>/blog/result-google-form-1</id><content type="html" xml:base="/blog/result-google-form-1/">&lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-07-13T11:57:43+09:00</updated><id>/</id><title type="html">Impact of Microsoft Acquisition of GitHub</title><subtitle>Jekyll version of the Massively theme by HTML5UP</subtitle><entry><title type="html">Result Google Form 1: Developer Perception To Microsoft&amp;#8217;s Acquisition Of Github</title><link href="/blog/result-google-form-1-Developer-Perception-to-Microsoft's-Acquisition-of-GitHub/" rel="alternate" type="text/html" title="Result Google Form 1: Developer Perception To Microsoft's Acquisition Of Github" /><published>2018-07-12T00:00:00+09:00</published><updated>2018-07-12T00:00:00+09:00</updated><id>/blog/result-google-form-1:-Developer-Perception-to-Microsoft's-Acquisition-of-GitHub</id><content type="html" xml:base="/blog/result-google-form-1-Developer-Perception-to-Microsoft's-Acquisition-of-GitHub/">&lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js&quot;&gt;&lt;/script&gt;
 
 &lt;script src=&quot;https://code.highcharts.com/highcharts.js&quot;&gt;&lt;/script&gt;
 
@@ -9,6 +9,7 @@
 &lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/chart.css&quot; /&gt;
 
 &lt;h2 style=&quot;text-align:center;&quot;&gt;Result from Google form 1st page of survey&lt;/h2&gt;
+&lt;p&gt;The questions of this section ask about perception to GitHub. The participations of this survey are developers who involve in Linux distribution and BSD project&lt;/p&gt;
 &lt;div id=&quot;content&quot;&gt;
   &lt;div class=&quot;chart&quot; id=&quot;1-1&quot;&gt;&lt;/div&gt;
   &lt;div class=&quot;spacer&quot;&gt;&lt;/div&gt;
@@ -21,11 +22,9 @@
   &lt;div class=&quot;chart&quot; id=&quot;1-5&quot;&gt;&lt;/div&gt;  
   &lt;div class=&quot;spacer&quot;&gt;&lt;/div&gt;
   &lt;div class=&quot;chart&quot; id=&quot;1-6&quot;&gt;&lt;/div&gt;
-
 &lt;/div&gt;
 
-&lt;script src=&quot;/assets/js/chart/1.js&quot;&gt; 
-&lt;/script&gt;</content><summary type="html"></summary></entry><entry><title type="html">Welcome to Massively: The Jekyll Theme!</title><link href="/blog/welcome-to-massively-the-jekyll-theme/" rel="alternate" type="text/html" title="Welcome to Massively: The Jekyll Theme!" /><published>2017-10-31T00:00:00+09:00</published><updated>2017-10-31T00:00:00+09:00</updated><id>/blog/welcome-to-massively-the-jekyll-theme</id><content type="html" xml:base="/blog/welcome-to-massively-the-jekyll-theme/">&lt;h2 id=&quot;how-to-use-this-theme&quot;&gt;How to Use This Theme&lt;/h2&gt;
+&lt;script src=&quot;/assets/js/chart/1.js&quot;&gt;&lt;/script&gt;</content><summary type="html"></summary></entry><entry><title type="html">Welcome to Massively: The Jekyll Theme!</title><link href="/blog/welcome-to-massively-the-jekyll-theme/" rel="alternate" type="text/html" title="Welcome to Massively: The Jekyll Theme!" /><published>2017-10-31T00:00:00+09:00</published><updated>2017-10-31T00:00:00+09:00</updated><id>/blog/welcome-to-massively-the-jekyll-theme</id><content type="html" xml:base="/blog/welcome-to-massively-the-jekyll-theme/">&lt;h2 id=&quot;how-to-use-this-theme&quot;&gt;How to Use This Theme&lt;/h2&gt;
 &lt;p&gt;Just go ahead and read up on &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;how to install Jekyll&lt;/a&gt;. It’s not too hard I promise!&lt;/p&gt;
 
 &lt;p&gt;Download this repository &lt;a href=&quot;https://github.com/iwiedenm/jekyll-theme-massively&quot;&gt;here&lt;/a&gt; and save it to any folder you want.&lt;/p&gt;
