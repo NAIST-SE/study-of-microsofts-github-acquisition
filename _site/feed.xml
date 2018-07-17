@@ -1,4 +1,62 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://ammyblabla.github.io/microsoftGitHub/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://ammyblabla.github.io/microsoftGitHub/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ammyblabla.github.io/microsoftGitHub/" rel="alternate" type="text/html" /><updated>2018-07-17T11:49:56+09:00</updated><id>https://ammyblabla.github.io/microsoftGitHub/</id><title type="html">Impact of Microsoft Acquisition of GitHub</title><subtitle>Jekyll version of the Massively theme by HTML5UP</subtitle><entry><title type="html">Result Google Form 02</title><link href="https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-02/" rel="alternate" type="text/html" title="Result Google Form 02" /><published>2018-07-16T00:00:00+09:00</published><updated>2018-07-16T00:00:00+09:00</updated><id>https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-02</id><content type="html" xml:base="https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-02/">&lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://ammyblabla.github.io/microsoftGitHub/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://ammyblabla.github.io/microsoftGitHub/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ammyblabla.github.io/microsoftGitHub/" rel="alternate" type="text/html" /><updated>2018-07-17T14:01:40+09:00</updated><id>https://ammyblabla.github.io/microsoftGitHub/</id><title type="html">Impact of Microsoft Acquisition of GitHub</title><subtitle>Jekyll version of the Massively theme by HTML5UP</subtitle><entry><title type="html">Result from Google form (Part 1)</title><link href="https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-01/" rel="alternate" type="text/html" title="Result from Google form (Part 1)" /><published>2018-07-17T00:00:00+09:00</published><updated>2018-07-17T00:00:00+09:00</updated><id>https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-01</id><content type="html" xml:base="https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-01/">&lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;script src=&quot;https://code.highcharts.com/highcharts.js&quot;&gt;&lt;/script&gt;
+
+&lt;script src=&quot;https://code.highcharts.com/modules/exporting.js&quot;&gt;&lt;/script&gt;
+
+&lt;script src=&quot;https://code.highcharts.com/modules/export-data.js&quot;&gt;&lt;/script&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/table.css&quot; /&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/chart.css&quot; /&gt;
+
+&lt;div id=&quot;content&quot;&gt;
+  &lt;div class=&quot;chart&quot; id=&quot;1-1&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;spacer&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;chart&quot; id=&quot;1-2&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;spacer&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;chart&quot; id=&quot;2-1&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;spacer&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;chart&quot; id=&quot;2-4&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;spacer&quot;&gt;&lt;/div&gt;
+  &lt;div id=&quot;table-scroll&quot; class=&quot;6-1&quot;&gt;
+    &lt;table&gt;
+      &lt;tr&gt;&lt;td&gt;Moved to Gitea long before MS acquired GitHub&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;I still don't know exactly why Microsoft bought out GitHub, but they need to proceed very very carefully.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;For now, unless many other projects move fast (see last comment), I would stay with GitHub, but I am afraid of slowly typical Microsoft integrations, OneDrive, Skype, merge of GitHub and Microsoft account and such things. Would not surprise me but kills the whole idea of FOSS. I think the main reason why great open source related project fail, after big companies buy then, is that a large commercial company, which earn money the opposite way than FOSS related projects try, lack the needed feeling and motivation and relationship to/with the community to be able to bring it forward the right way. FOSS proprietary for me is simply an opposite approach. This of course cannot be tied to single people within e.g. Microsoft, but I think the company as a whole will slowly change GitHub in a way, that drives FOSS developers away, just because the idea of what is good and beneficial is simply a different one.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;It would be a good idea to have a similar survey regarding &quot;normal&quot; open-source projects hosted on GitHub.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;GitHub hurts open development by providing nonfree issue tracking, and rate limiting API access to those features therefore incurring vendor lock-in. To contribute to a GitHub project the contributors are forced to make a GitHub account and have to agree to a GitHub TOS rather than just the project's. I feel the situation will only get worse regarding terms issues with Microsoft management and usability wise the platform will further degrade judging by what happened to past Microsoft acquisitions such as Skype or Mojang.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;I feel that Microsoft did a good move and I hope it's a good news for the Open Source ecosystem&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;So Linux Torvalds the father of linux sold out to Microsoft, and practically works for RedHat exclusively ... I am expecting Microsoft to get control of RedHat and linux kernel development ... in other words Microsoft will end up owning linux. Then, there will only be MAC osx to turn too ... for the time being.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;Think like this: &lt;br /&gt;
+      1. Millions of people offers they labors for free, the hosting of this labor have sale it for a big amount of money to a company. Where's suppose to go the benefit ?&lt;br /&gt;
+      2. What is going to be the benefit of Microsoft in spending such a lot of money for such a platform containing millions of projects that should at the end stays available for free.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;I feel sad about that notice&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;There's a Debian Debconf talk about being able to save / export comments an improved github alike platform. This would ease migrating from github to other platforms if it got implemented as an standard.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;Microsoft is like a turd that just wont flush. It seems like they're on the most subtle embrace, extend, extinguish plan after fading to irrelevance. It seems that most are either unaware of Microsofts antics from the past or just fickle about it (ooh freebies) which is sad. I hope Microsoft would just die and go away.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;Please consider adding &quot;Do you know the event ?&quot; as a question, because I don't. And that may affect the survey results.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;git is git. The git SaaS mostly doesn't matter. &lt;br /&gt;
+      Also, now &quot;Microsoft has ALL the code&quot;. This includes github's commercial clients. This is similar to Amazon having most of the world's server code.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;Microsoft does not abide by GNU/Linux philosophies, while Github is heavily intertwined with GNU/Linux philosophies.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;I am leaving github because of Microsoft's history of intentionally squashing competing technologies. I cannot support unethical companies.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;I've seen a few of the open source hardliner projects move away from GitHub or issues opened on projects that they should move away from GitHub.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;I don't see anything wrong with buying Github by Microsoft. For example, we use Skype so far and we will continue to use it until it suits our needs, or until we do something relatively convenient for us.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;Today we need more than ever FREEDOM. We can have in a commercial world, we have had in the past in the USA, not in the URSS! But we need to know and understand and defend freedom.&amp;lt;&lt;br /&gt;Today and not since today our freedom is getting smaller and smaller from the hardware (UEFI (in)secure-boot etc) to services (how many people instead of have a local maildir sync-ed, for instance, only live on webmails?) to the society in general.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;the &quot;Which statement best describes your current situation with any of your contributed projects?&quot; question did not provide for my answer - the project I use most is not on Github, but others I do activity work on are on github and have not moved away&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;I think the main avantage of gihub is the size of the account pools so it lowers small contribution by lot of people because they have previously an account. It will not be lost by the acquisition.&lt;br /&gt;In my opinion, the goal of microsoft is to provide an automatic deployment to azure. So it's more a bad news to proprietary service like heroku.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;it would be great when you release the results as open data for the research community to work with&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;I could not answer question &quot;Which statement best describes your current situation with any of your contributed projects?&quot; as my answer would be: The projects that I contribute to the most is currently not using GitHub, some projects that I contribute to use GitHub.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;monopoly&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;GitHub is not the &quot;silver bullet&quot;: some of the most successful projects in the world don't even use GitHub - or never used. That said, it's very sad for the OSS community that a company like Microsoft, that since its inception was an enemy of Open Source, acquired GitHub - they don't sell (to me) the idea that they are now a different company. They will have to do more to show so. So far they have done nothing compared to what they have arguably taken.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;I have removed all my github projects and will not use it in the future completely due to the acquisition.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;As far as I am concerned this is the end of GitHub.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;Cloud data never belongs to the user, but always to the cloud provider.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;Many team members are not concerned about the use of Github, and the convenience of the features on Github are useful. Visibility of the project (example Mapserver) is very important to some team leaders, and there is no replacement. We at OSGeo dot org have already built our own git server, and it is popular in our group.. the content of the projects is perfectly mirrored, but the tickets and PR history does not port. Some people have found tools to migrate away from Github, but it has not happened in general. The opinions about this are very divided, with strong feelings on different sides.&lt;/td&gt;&lt;/tr&gt;
+    &lt;/table&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script src=&quot;/assets/js/chart/01.js&quot;&gt;&lt;/script&gt;</content><summary type="html">These question are done by all participants.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ammyblabla.github.io/microsoftGitHub/images/pic02.jpg" /></entry><entry><title type="html">Result Google Form 02</title><link href="https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-02/" rel="alternate" type="text/html" title="Result Google Form 02" /><published>2018-07-16T00:00:00+09:00</published><updated>2018-07-16T00:00:00+09:00</updated><id>https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-02</id><content type="html" xml:base="https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-02/">&lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js&quot;&gt;&lt;/script&gt;
 
 &lt;script src=&quot;https://code.highcharts.com/highcharts.js&quot;&gt;&lt;/script&gt;
 
@@ -102,67 +160,44 @@
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;script src=&quot;/assets/js/chart/02.js&quot;&gt;&lt;/script&gt;</content><summary type="html"></summary></entry><entry><title type="html">Result Google Form 01</title><link href="https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-01/" rel="alternate" type="text/html" title="Result Google Form 01" /><published>2018-07-16T00:00:00+09:00</published><updated>2018-07-16T00:00:00+09:00</updated><id>https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-01</id><content type="html" xml:base="https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-01/">&lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/assets/js/chart/02.js&quot;&gt;&lt;/script&gt;</content><summary type="html"></summary></entry><entry><title type="html">How to make this survey?</title><link href="https://ammyblabla.github.io/microsoftGitHub/blog/how-to-do-survey/" rel="alternate" type="text/html" title="How to make this survey?" /><published>2018-07-01T00:00:00+09:00</published><updated>2018-07-01T00:00:00+09:00</updated><id>https://ammyblabla.github.io/microsoftGitHub/blog/how-to-do-survey</id><content type="html" xml:base="https://ammyblabla.github.io/microsoftGitHub/blog/how-to-do-survey/">&lt;h2 id=&quot;1-reading-news-and-article-about-microsoft-aquisition&quot;&gt;1. reading news and article about Microsoft aquisition.&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.linuxfoundation.org/blog/microsoft-buys-github-the-linux-foundations-reaction/&quot;&gt;Microsoft Buys GitHub: The Linux Foundation’s Reaction&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=14972872&quot;&gt;Why GitHub Can’t Host the Linux Kernel Community&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.zdnet.com/article/linux-foundation-microsofts-github-buy-is-a-win-for-open-source/&quot;&gt;Linux Foundation: Microsoft’s GitHub buy is a win for open source&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.zdnet.com/article/github-rivals-gain-from-microsoft-acquisition-but-its-no-mass-exodus-yet/&quot;&gt;GitHub rivals gain from Microsoft acquisition but it’s no mass exodus, yet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;script src=&quot;https://code.highcharts.com/highcharts.js&quot;&gt;&lt;/script&gt;
+&lt;h2 id=&quot;2-defining-goal-and-assumption-of-this-survey&quot;&gt;2. defining goal and assumption of this survey.&lt;/h2&gt;
+&lt;h3 id=&quot;goal&quot;&gt;Goal&lt;/h3&gt;
+&lt;p&gt;How do contributors of the Linux distributions perceive Microsoft acquirement GitHub?&lt;/p&gt;
+&lt;h3 id=&quot;assumption&quot;&gt;Assumption&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Developers are afraid of change&lt;/li&gt;
+  &lt;li&gt;Developers have personal preferences&lt;/li&gt;
+  &lt;li&gt;Developers prefer the features of GitHub&lt;/li&gt;
+  &lt;li&gt;Developers are more interested in technical aspects
+    &lt;h3 id=&quot;target&quot;&gt;Target&lt;/h3&gt;
+    &lt;p&gt;We target contributors of Linux distributions/kernel and BSD families because you are serious developers.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;script src=&quot;https://code.highcharts.com/modules/exporting.js&quot;&gt;&lt;/script&gt;
+&lt;h2 id=&quot;3-design-question&quot;&gt;3. Design question&lt;/h2&gt;
+&lt;p&gt;Our question have to answer the assumptions and not straightforward. However, it is just draft, we create question straightforward and will revise them later.&lt;/p&gt;
+&lt;h2 id=&quot;how-to-answer&quot;&gt;How to answer&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;We try to make you easy to answer and not scroll anything for answer the questions.
+    &lt;h3 id=&quot;multiple-choice&quot;&gt;Multiple choice&lt;/h3&gt;
+    &lt;p&gt;&lt;img src=&quot;/images/choice/multiple.png&quot; alt=&quot;&quot; /&gt;
+I want participants to answer only one choice, so I use basic multiple choice. This is the easiest way to answer.&lt;/p&gt;
+    &lt;h3 id=&quot;checkbox&quot;&gt;Checkbox&lt;/h3&gt;
+    &lt;p&gt;&lt;img src=&quot;/images/choice/checkbox.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;script src=&quot;https://code.highcharts.com/modules/export-data.js&quot;&gt;&lt;/script&gt;
-
-&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/table.css&quot; /&gt;
-
-&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/chart.css&quot; /&gt;
-
-&lt;h2 style=&quot;text-align:center;&quot;&gt;Result from Google form&lt;/h2&gt;
-&lt;p&gt;The questions of this section ask about perception to GitHub. The participations of this survey are developers who involve in Linux distribution and BSD project&lt;/p&gt;
-&lt;div id=&quot;content&quot;&gt;
-  &lt;div class=&quot;chart&quot; id=&quot;1-1&quot;&gt;&lt;/div&gt;
-  &lt;div class=&quot;spacer&quot;&gt;&lt;/div&gt;
-  &lt;div class=&quot;chart&quot; id=&quot;1-2&quot;&gt;&lt;/div&gt;
-  &lt;div class=&quot;spacer&quot;&gt;&lt;/div&gt;
-  &lt;div class=&quot;chart&quot; id=&quot;2-1&quot;&gt;&lt;/div&gt;
-  &lt;div class=&quot;spacer&quot;&gt;&lt;/div&gt;
-  &lt;div class=&quot;chart&quot; id=&quot;2-4&quot;&gt;&lt;/div&gt;
-  &lt;div class=&quot;spacer&quot;&gt;&lt;/div&gt;
-  &lt;div id=&quot;table-scroll&quot; class=&quot;6-1&quot;&gt;
-    &lt;table&gt;
-      &lt;tr&gt;&lt;td&gt;Moved to Gitea long before MS acquired GitHub&lt;/td&gt;&lt;/tr&gt;
-      &lt;tr&gt;&lt;td&gt;I still don't know exactly why Microsoft bought out GitHub, but they need to proceed very very carefully.&lt;/td&gt;&lt;/tr&gt;
-      &lt;tr&gt;&lt;td&gt;For now, unless many other projects move fast (see last comment), I would stay with GitHub, but I am afraid of slowly typical Microsoft integrations, OneDrive, Skype, merge of GitHub and Microsoft account and such things. Would not surprise me but kills the whole idea of FOSS. I think the main reason why great open source related project fail, after big companies buy then, is that a large commercial company, which earn money the opposite way than FOSS related projects try, lack the needed feeling and motivation and relationship to/with the community to be able to bring it forward the right way. FOSS proprietary for me is simply an opposite approach. This of course cannot be tied to single people within e.g. Microsoft, but I think the company as a whole will slowly change GitHub in a way, that drives FOSS developers away, just because the idea of what is good and beneficial is simply a different one.&lt;/td&gt;&lt;/tr&gt;
-      &lt;tr&gt;&lt;td&gt;It would be a good idea to have a similar survey regarding &quot;normal&quot; open-source projects hosted on GitHub.&lt;/td&gt;&lt;/tr&gt;
-      &lt;tr&gt;&lt;td&gt;GitHub hurts open development by providing nonfree issue tracking, and rate limiting API access to those features therefore incurring vendor lock-in. To contribute to a GitHub project the contributors are forced to make a GitHub account and have to agree to a GitHub TOS rather than just the project's. I feel the situation will only get worse regarding terms issues with Microsoft management and usability wise the platform will further degrade judging by what happened to past Microsoft acquisitions such as Skype or Mojang.&lt;/td&gt;&lt;/tr&gt;
-      &lt;tr&gt;&lt;td&gt;I feel that Microsoft did a good move and I hope it's a good news for the Open Source ecosystem&lt;/td&gt;&lt;/tr&gt;
-      &lt;tr&gt;&lt;td&gt;So Linux Torvalds the father of linux sold out to Microsoft, and practically works for RedHat exclusively ... I am expecting Microsoft to get control of RedHat and linux kernel development ... in other words Microsoft will end up owning linux. Then, there will only be MAC osx to turn too ... for the time being.&lt;/td&gt;&lt;/tr&gt;
-      &lt;tr&gt;&lt;td&gt;Think like this: &lt;br /&gt;
-      1. Millions of people offers they labors for free, the hosting of this labor have sale it for a big amount of money to a company. Where's suppose to go the benefit ?&lt;br /&gt;
-      2. What is going to be the benefit of Microsoft in spending such a lot of money for such a platform containing millions of projects that should at the end stays available for free.&lt;/td&gt;&lt;/tr&gt;
-      &lt;tr&gt;&lt;td&gt;I feel sad about that notice&lt;/td&gt;&lt;/tr&gt;
-      &lt;tr&gt;&lt;td&gt;There's a Debian Debconf talk about being able to save / export comments an improved github alike platform. This would ease migrating from github to other platforms if it got implemented as an standard.&lt;/td&gt;&lt;/tr&gt;
-      &lt;tr&gt;&lt;td&gt;Microsoft is like a turd that just wont flush. It seems like they're on the most subtle embrace, extend, extinguish plan after fading to irrelevance. It seems that most are either unaware of Microsofts antics from the past or just fickle about it (ooh freebies) which is sad. I hope Microsoft would just die and go away.&lt;/td&gt;&lt;/tr&gt;
-      &lt;tr&gt;&lt;td&gt;Please consider adding &quot;Do you know the event ?&quot; as a question, because I don't. And that may affect the survey results.&lt;/td&gt;&lt;/tr&gt;
-      &lt;tr&gt;&lt;td&gt;git is git. The git SaaS mostly doesn't matter. &lt;br /&gt;
-      Also, now &quot;Microsoft has ALL the code&quot;. This includes github's commercial clients. This is similar to Amazon having most of the world's server code.&lt;/td&gt;&lt;/tr&gt;
-      &lt;tr&gt;&lt;td&gt;Microsoft does not abide by GNU/Linux philosophies, while Github is heavily intertwined with GNU/Linux philosophies.&lt;/td&gt;&lt;/tr&gt;
-      &lt;tr&gt;&lt;td&gt;I am leaving github because of Microsoft's history of intentionally squashing competing technologies. I cannot support unethical companies.&lt;/td&gt;&lt;/tr&gt;
-      &lt;tr&gt;&lt;td&gt;I've seen a few of the open source hardliner projects move away from GitHub or issues opened on projects that they should move away from GitHub.&lt;/td&gt;&lt;/tr&gt;
-      &lt;tr&gt;&lt;td&gt;I don't see anything wrong with buying Github by Microsoft. For example, we use Skype so far and we will continue to use it until it suits our needs, or until we do something relatively convenient for us.&lt;/td&gt;&lt;/tr&gt;
-      &lt;tr&gt;&lt;td&gt;Today we need more than ever FREEDOM. We can have in a commercial world, we have had in the past in the USA, not in the URSS! But we need to know and understand and defend freedom.&amp;lt;&lt;br /&gt;Today and not since today our freedom is getting smaller and smaller from the hardware (UEFI (in)secure-boot etc) to services (how many people instead of have a local maildir sync-ed, for instance, only live on webmails?) to the society in general.&lt;/td&gt;&lt;/tr&gt;
-      &lt;tr&gt;&lt;td&gt;the &quot;Which statement best describes your current situation with any of your contributed projects?&quot; question did not provide for my answer - the project I use most is not on Github, but others I do activity work on are on github and have not moved away&lt;/td&gt;&lt;/tr&gt;
-      &lt;tr&gt;&lt;td&gt;I think the main avantage of gihub is the size of the account pools so it lowers small contribution by lot of people because they have previously an account. It will not be lost by the acquisition.&lt;br /&gt;In my opinion, the goal of microsoft is to provide an automatic deployment to azure. So it's more a bad news to proprietary service like heroku.&lt;/td&gt;&lt;/tr&gt;
-      &lt;tr&gt;&lt;td&gt;it would be great when you release the results as open data for the research community to work with&lt;/td&gt;&lt;/tr&gt;
-      &lt;tr&gt;&lt;td&gt;I could not answer question &quot;Which statement best describes your current situation with any of your contributed projects?&quot; as my answer would be: The projects that I contribute to the most is currently not using GitHub, some projects that I contribute to use GitHub.&lt;/td&gt;&lt;/tr&gt;
-      &lt;tr&gt;&lt;td&gt;monopoly&lt;/td&gt;&lt;/tr&gt;
-      &lt;tr&gt;&lt;td&gt;GitHub is not the &quot;silver bullet&quot;: some of the most successful projects in the world don't even use GitHub - or never used. That said, it's very sad for the OSS community that a company like Microsoft, that since its inception was an enemy of Open Source, acquired GitHub - they don't sell (to me) the idea that they are now a different company. They will have to do more to show so. So far they have done nothing compared to what they have arguably taken.&lt;/td&gt;&lt;/tr&gt;
-      &lt;tr&gt;&lt;td&gt;I have removed all my github projects and will not use it in the future completely due to the acquisition.&lt;/td&gt;&lt;/tr&gt;
-      &lt;tr&gt;&lt;td&gt;As far as I am concerned this is the end of GitHub.&lt;/td&gt;&lt;/tr&gt;
-      &lt;tr&gt;&lt;td&gt;Cloud data never belongs to the user, but always to the cloud provider.&lt;/td&gt;&lt;/tr&gt;
-      &lt;tr&gt;&lt;td&gt;Many team members are not concerned about the use of Github, and the convenience of the features on Github are useful. Visibility of the project (example Mapserver) is very important to some team leaders, and there is no replacement. We at OSGeo dot org have already built our own git server, and it is popular in our group.. the content of the projects is perfectly mirrored, but the tickets and PR history does not port. Some people have found tools to migrate away from Github, but it has not happened in general. The opinions about this are very divided, with strong feelings on different sides.&lt;/td&gt;&lt;/tr&gt;
-    &lt;/table&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;script src=&quot;/assets/js/chart/01.js&quot;&gt;&lt;/script&gt;</content><summary type="html"></summary></entry><entry><title type="html">Welcome to Massively: The Jekyll Theme!</title><link href="https://ammyblabla.github.io/microsoftGitHub/blog/welcome-to-massively-the-jekyll-theme/" rel="alternate" type="text/html" title="Welcome to Massively: The Jekyll Theme!" /><published>2017-10-31T00:00:00+09:00</published><updated>2017-10-31T00:00:00+09:00</updated><id>https://ammyblabla.github.io/microsoftGitHub/blog/welcome-to-massively-the-jekyll-theme</id><content type="html" xml:base="https://ammyblabla.github.io/microsoftGitHub/blog/welcome-to-massively-the-jekyll-theme/">&lt;h2 id=&quot;how-to-use-this-theme&quot;&gt;How to Use This Theme&lt;/h2&gt;
+&lt;p&gt;Some of participants hestitate to answer these questions, so participants can select more than one answer and can add new choice.&lt;/p&gt;
+&lt;h3 id=&quot;linear-scale&quot;&gt;Linear scale&lt;/h3&gt;
+&lt;p&gt;Thjos&lt;/p&gt;</content><summary type="html">Making survey is heart of this work.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ammyblabla.github.io/microsoftGitHub/images/pic02.jpg" /></entry><entry><title type="html">Welcome to Massively: The Jekyll Theme!</title><link href="https://ammyblabla.github.io/microsoftGitHub/blog/welcome-to-massively-the-jekyll-theme/" rel="alternate" type="text/html" title="Welcome to Massively: The Jekyll Theme!" /><published>2017-10-31T00:00:00+09:00</published><updated>2017-10-31T00:00:00+09:00</updated><id>https://ammyblabla.github.io/microsoftGitHub/blog/welcome-to-massively-the-jekyll-theme</id><content type="html" xml:base="https://ammyblabla.github.io/microsoftGitHub/blog/welcome-to-massively-the-jekyll-theme/">&lt;h2 id=&quot;how-to-use-this-theme&quot;&gt;How to Use This Theme&lt;/h2&gt;
 &lt;p&gt;Just go ahead and read up on &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;how to install Jekyll&lt;/a&gt;. It’s not too hard I promise!&lt;/p&gt;
 
 &lt;p&gt;Download this repository &lt;a href=&quot;https://github.com/iwiedenm/jekyll-theme-massively&quot;&gt;here&lt;/a&gt; and save it to any folder you want.&lt;/p&gt;

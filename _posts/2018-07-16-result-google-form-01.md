@@ -1,7 +1,10 @@
 ---
 layout: post
+title:  "Result from Google form (Part 1)"
+date:   2018-07-17
+excerpt: "These question are done by all participants."
+image: "/images/pic02.jpg"
 comments: true
-# other options
 ---
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -11,8 +14,6 @@ comments: true
 <link rel="stylesheet" href="{{ "/assets/css/table.css" | absolute_url }}">
 <link rel="stylesheet" href="{{ "/assets/css/chart.css" | absolute_url }}">
 
-<h2 style="text-align:center;">Result from Google form</h2>
-<p>The questions of this section ask about perception to GitHub. The participations of this survey are developers who involve in Linux distribution and BSD project</p>
 <div id="content">
   <div class="chart" id="1-1"></div>
   <div class="spacer"></div>
