@@ -22,7 +22,7 @@ comments: true
   <div class="spacer"></div>
   <div class="chart" id="2-4"></div>
   <div class="spacer"></div>
-  <div id="table-scroll">
+  <div id="table-scroll" class='6-1>
     <table>
       <tr><td>Github has strong support for SaaS integration (CI/CD services in particular), but these services are provided by third parties. Github's competitors such as Gitlab and Atlassian Bitbucket provide CI/CD functionality as part of their packages which would probably make me decide to use them instead of Github if I had to set up a new user account right now.</td></tr>
       <tr><td>Microsoft brings money, money means stable and reliable hosting of our source code.</td></tr>

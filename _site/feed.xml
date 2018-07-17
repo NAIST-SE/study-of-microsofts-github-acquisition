@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://ammyblabla.github.io/microsoftGitHub/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://ammyblabla.github.io/microsoftGitHub/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ammyblabla.github.io/microsoftGitHub/" rel="alternate" type="text/html" /><updated>2018-07-17T10:47:25+09:00</updated><id>https://ammyblabla.github.io/microsoftGitHub/</id><title type="html">Impact of Microsoft Acquisition of GitHub</title><subtitle>Jekyll version of the Massively theme by HTML5UP</subtitle><entry><title type="html">Result Google Form 02</title><link href="https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-02/" rel="alternate" type="text/html" title="Result Google Form 02" /><published>2018-07-16T00:00:00+09:00</published><updated>2018-07-16T00:00:00+09:00</updated><id>https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-02</id><content type="html" xml:base="https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-02/">&lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://ammyblabla.github.io/microsoftGitHub/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://ammyblabla.github.io/microsoftGitHub/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ammyblabla.github.io/microsoftGitHub/" rel="alternate" type="text/html" /><updated>2018-07-17T11:29:47+09:00</updated><id>https://ammyblabla.github.io/microsoftGitHub/</id><title type="html">Impact of Microsoft Acquisition of GitHub</title><subtitle>Jekyll version of the Massively theme by HTML5UP</subtitle><entry><title type="html">Result Google Form 02</title><link href="https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-02/" rel="alternate" type="text/html" title="Result Google Form 02" /><published>2018-07-16T00:00:00+09:00</published><updated>2018-07-16T00:00:00+09:00</updated><id>https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-02</id><content type="html" xml:base="https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-02/">&lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js&quot;&gt;&lt;/script&gt;
 
 &lt;script src=&quot;https://code.highcharts.com/highcharts.js&quot;&gt;&lt;/script&gt;
 
@@ -6,28 +6,103 @@
 
 &lt;script src=&quot;https://code.highcharts.com/modules/export-data.js&quot;&gt;&lt;/script&gt;
 
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/table.css&quot; /&gt;
+
 &lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/chart.css&quot; /&gt;
-&lt;p&gt;&amp;lt;/script&amp;gt;&lt;/p&gt;
 
 &lt;h2 style=&quot;text-align:center;&quot;&gt;Result from Google form&lt;/h2&gt;
 &lt;p&gt;The questions of this section ask about perception to GitHub. The participations of this survey are developers who involve in Linux distribution and BSD project&lt;/p&gt;
 &lt;div id=&quot;content&quot;&gt;
   &lt;div class=&quot;chart&quot; id=&quot;3-1&quot;&gt;&lt;/div&gt;  
   &lt;div class=&quot;spacer&quot;&gt;&lt;/div&gt;
-  &lt;div class=&quot;chart&quot; id=&quot;3-3&quot;&gt;&lt;/div&gt;  
+  &lt;div id=&quot;table-scroll&quot; class=&quot;3-3&quot;&gt;
+    &lt;table&gt;
+      &lt;tr&gt;&lt;td&gt;I like GitHub but I like GitLab more. The main point is there's more devs on GitHub than on GitLab at least for now&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;FreeBSD doesn't use GitHub as its primary source anyway.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;i do not trust microsoft&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;It's quite hard for me to trust Microsoft, they're probably still planning to EEE stuff - even a &quot;harmless&quot; tiger raised in captivity will still bite.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;The problem is, if too much devs move to other platforms, then the greatest benefit of GitHib (easy cross-contribution and linking between different projects) will be lost. Thus follow the herd ;).&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;Microsoft has shown multiple times in the past that they have no problems stealing ideas from open source software. Their ability to change the foundations and the fundamentals of your project by using terms and conditions will result in a poorer product and more people worried about legal implications instead of writing code.&lt;br /&gt;&lt;br /&gt;It's just better and easier to move to a different system.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;Github has strong support for SaaS integration (CI/CD services in particular), but these services are provided by third parties. Github's competitors such as Gitlab and Atlassian Bitbucket provide CI/CD functionality as part of their packages which would probably make me decide to use them instead of Github if I had to set up a new user account right now.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;Usability and access to versioning is not userfriendly, and needs to learn commands and knowledge to make the best use of it.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;It's easy to migrate to other git hosting platforms, but that's not needed right now for me.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;Their terrible workplace history is far more of an issue than their ownership and competent HR department could only be an improvement.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;A Platform to develop OpenSource software cannot be controlled by King of closed source software. It's a contradiction.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;Microsoft support troll companies against Linux. I hate this.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;I’ve never been too fond of GitHub, but I doubt Microsoft would make it any worse. If, at all, they might make it slightly better. I think those moving away in panic to *other* commercial platforms like GitLab are idiots and hypocrites.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;Practically speaking, nothing has changed yet. We are not even talking about predictions, but about &quot;gut feelings&quot;.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;Github is great for smaller projects but more serious projects need faster services.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;Imho GitLab is superior in parts of functionality but is still lacking the userbase.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;GitHub was closed-source either way, Microsoft acquiring it doesn't change much. (Yet.)&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;Github is great and has done a lot for the free software movement, but there are technically superior alternatives that are free software now, while github is propietary.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;It's useful for mirrors in order to make it easy for drive-by contributors.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;The Debian project had always been in favour of not using services running on infrastructure that is not managed by Debian. Impact to the project has been minimal as we had already our own infrastructure (Alioth recently migrated to salsa.debian.org, our own gitlab infrastructure). Debian is used to handling upstream developers using many different forges (Sourceforge, Savannah, GitHub, Gitlab) and the impact of upstream moving from GitHub to GitSalsa has not been significant.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;i'm preparing to leave github with my personal projects before microsoft takes over control to a personal gitea instance!&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;I think it is too early to say what the impact is and most of the moves away seem to be hysteria rather than rational decisions.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;GitHub was already a proprietary platform, and continues to be a proprietary platform. Its sole advantage is network effects: most users are already on GitHub and used to GitHub.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;Microsoft brings money, money means stable and reliable hosting of our source code.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;Github has been core to projects I work on, including Chef and Samba. Moving would be awkward: but Microsoft could very easily destroy the trust critical to these projects, much as Sourceforge ruined trust in their repositories by poisoning the idle Windows GIMP project with adware. Trust in Microsoft's business practices is low, for strong historical reason, and it will take a long time to earn that trust.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;Gitlab is an great open source alternative to github.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;Monocultures are to be avoided, GitHub should simply be one of a number of similar projects to be used by software projects.&lt;/td&gt;&lt;/tr&gt;  
+    &lt;/table&gt;
+  &lt;/div&gt;
   &lt;div class=&quot;spacer&quot;&gt;&lt;/div&gt;
   &lt;div class=&quot;chart&quot; id=&quot;4-1&quot;&gt;&lt;/div&gt;
   &lt;div class=&quot;spacer&quot;&gt;&lt;/div&gt;
-  &lt;div class=&quot;chart&quot; id=&quot;4-5&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;4-5&quot; id=&quot;table-scroll&quot;&gt;
+  &lt;tr&gt;&lt;td&gt;Practically speaking, nothing has changed yet. We are not even talking about predictions, but about &quot;gut feelings&quot;.&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;A Platform to develop OpenSource software cannot be controlled by King of closed source software. It's a contradiction.&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;It's quite hard for me to trust Microsoft, they're probably still planning to EEE stuff - even a &quot;harmless&quot; tiger raised in captivity will still bite. &lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Their terrible workplace history is far more of an issue than their ownership and  competent HR department could only be an improvement.&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;i'm preparing to leave github with my personal projects before microsoft takes over control to a personal gitea instance!&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Github is great and has done a lot for the free software movement, but there are technically superior alternatives that are free software now, while github is propietary.&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;I think it is too early to say what the impact is and most of the moves away seem to be hysteria rather than rational decisions.&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;It's useful for mirrors in order to make it easy for drive-by contributors.&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Microsoft brings money, money means stable and reliable hosting of our source code.&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Github has been core to projects I work on, including Chef and Samba. Moving would be awkward: but Microsoft could very easily destroy the trust critical to these projects, much as Sourceforge ruined trust in their repositories by poisoning the idle Windows GIMP project with adware. Trust in Microsoft's business practices is low, for strong historical reason, and it will take a long time to earn that trust.&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Github is great for smaller projects but more serious projects need faster services.&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Microsoft support troll companies against Linux. I hate this.&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;I’ve never been too fond of GitHub, but I doubt Microsoft would make it any worse. If, at all, they might make it slightly better. I think those moving away in panic to *other* commercial platforms like GitLab are idiots and hypocrites.&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;GitHub was already a proprietary platform, and continues to be a proprietary platform. Its sole advantage is network effects: most users are already on GitHub and used to GitHub.&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;The Debian project had always been in favour of not using services running on infrastructure that is not managed by Debian. Impact to the project has been minimal as we had already our own infrastructure (Alioth recently migrated to salsa.debian.org, our own gitlab infrastructure). Debian is used to handling upstream developers using many different forges (Sourceforge, Savannah, GitHub, Gitlab) and the impact of upstream moving from GitHub to GitSalsa has not been significant.&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Usability and access to versioning is not userfriendly, and needs to learn commands and knowledge to make the best use of it.&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;It's easy to migrate to other git hosting platforms, but that's not needed right now for me.&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;i do not trust microsoft&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Imho GitLab is superior in parts of functionality but is still lacking the userbase.&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;FreeBSD doesn't use GitHub as its primary source anyway.&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Gitlab is an great open source alternative to github. &lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;GitHub was closed-source either way, Microsoft acquiring it doesn't change much. (Yet.)&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Monocultures are to be avoided, GitHub should simply be one of a number of similar projects to be used by software projects.&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Microsoft has shown multiple times in the past that they have no problems stealing ideas from open source software. Their ability to change the foundations and the fundamentals of your project by using terms and conditions will result in a poorer product and more people worried about legal implications instead of writing code.&lt;br /&gt;&lt;br /&gt;It's just better and easier to move to a different system. &lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;I like GitHub but I like GitLab more. The main point is there's more devs on GitHub than on GitLab at least for now&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Github has strong support for SaaS integration (CI/CD services in particular), but these services are provided by third parties. Github's competitors such as Gitlab and Atlassian Bitbucket provide CI/CD functionality as part of their packages which would probably make me decide to use them instead of Github if I had to set up a new user account right now.&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;The problem is, if too much devs move to other platforms, then the greatest benefit of GitHib (easy cross-contribution and linking between different projects) will be lost. Thus follow the herd ;).&lt;/td&gt;&lt;/tr&gt;
+  &lt;/div&gt;
   &lt;div class=&quot;spacer&quot;&gt;&lt;/div&gt;
   &lt;div class=&quot;chart&quot; id=&quot;5-1&quot;&gt;&lt;/div&gt;
   &lt;div class=&quot;spacer&quot;&gt;&lt;/div&gt;
   &lt;div class=&quot;chart&quot; id=&quot;5-3&quot;&gt;&lt;/div&gt;
   &lt;div class=&quot;spacer&quot;&gt;&lt;/div&gt;
-  &lt;div class=&quot;chart&quot; id=&quot;5-4&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;5-4&quot; id=&quot;table-scroll&quot;&gt;
+    &lt;table&gt;
+      &lt;tr&gt;&lt;td&gt;This has always been a proprietary service using open source technologies. The owner doesn't really matter to me as long as they don't mess with code or visibility of projects for business purposes.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;Our distribution have a separate development platform.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;Just a casual user. But my biggest issue with github is search has been changed. The change I like is if I'm on some project page. The made it easier to search that project repo or search for a new project on github. But they made a dumb ass decision to penalized you for searching to much. Or hell, make spelling mistakes and try to search again. Nope the site start bitching about you searching too much. It's really starting to piss me off! &lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;The problem is NOT GitHUB-Microsoft deal but more general, a small example: in the past we (nearly) all use usenet. There are TONS of newserver around the world, anyone can host another if he or she want. There are plenty of groups some fun, some about sport, some about work, some to help others, some to discuss new ideas, ... today we have FEW non-integrated proprietary platforms (from Fb to StackExchange to Reddit to 4Chan, YC, ... all of them are POOR replacements of ancient ng. All of them are proprietary and depend on a single company.&lt;br /&gt;&lt;br /&gt;For GitHub (&amp;amp;co) the situation is the same: in the past (an few project keep this paradigma) we work on ml, we host projects on a variety of hosts, many are from project members itself (think at Debian's mirros by ISPs that use Debian). Now people tend to concentrate on single proprietary platform like GitHub, GitLab etc. It doesn't matter if the holder is Microsoft or Dr. Foo Bar: they are company, their goal is making money. We can have a common interest but it can't least forever. On open platforms when the interest diverge the switch is easy, for instance if you change your mail service it's a matter of IMAP transfert. If you switch from a proprietary platform to another MANY thing may change. It may be hard.&lt;br /&gt;&lt;br /&gt;If the use of GitHub is limited as a repository mirror there are little issue, they are substantial &quot;open hosters&quot;, but if you use PR&amp;amp;other GitHub features you are locked-in.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;MS has it now, it's best to stay away.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;People are generally moving to GitLab, which is much nicer.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;suck microsoft&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;As an open source project, we want to use open source tools wherever possible.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;Microsoft has proven over and over again that they don't have any ethical limits nor respect legal obligations (if possible) in their attempt to increase profit AND destroy competitors. Monopolies are detrimental to society &amp;amp; economy.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;Alternatives (e.g. GitLab) have IMO a better UI and advanced features (e.g. GitLab CI), I hope that due to this purchase more people will move to GitLab (which I'd actually love to work with, even in OSS)&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;I will leave some projects on GitHub but am using BitBucket for others.  I am trying to limit the potential damage Microsoft will do.&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;MS will impede development of competitive sw to MS products&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;GitHub was largely unusable for me even before the acquisition due to poor SSH/GPG compatibility, so most of my contributions were already diverted to other places. After the Microsoft announcement I decided to delete my account entirely.&lt;/td&gt;&lt;/tr&gt;
+    &lt;/table&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;script src=&quot;/assets/js/chart/1.js&quot;&gt;&lt;/script&gt;</content><summary type="html">&amp;lt;/script&amp;gt;</summary></entry><entry><title type="html">Result Google Form 01</title><link href="https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-01/" rel="alternate" type="text/html" title="Result Google Form 01" /><published>2018-07-16T00:00:00+09:00</published><updated>2018-07-16T00:00:00+09:00</updated><id>https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-01</id><content type="html" xml:base="https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-01/">&lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/assets/js/chart/02.js&quot;&gt;&lt;/script&gt;</content><summary type="html"></summary></entry><entry><title type="html">Result Google Form 01</title><link href="https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-01/" rel="alternate" type="text/html" title="Result Google Form 01" /><published>2018-07-16T00:00:00+09:00</published><updated>2018-07-16T00:00:00+09:00</updated><id>https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-01</id><content type="html" xml:base="https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-01/">&lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js&quot;&gt;&lt;/script&gt;
 
 &lt;script src=&quot;https://code.highcharts.com/highcharts.js&quot;&gt;&lt;/script&gt;
 
@@ -50,7 +125,7 @@
   &lt;div class=&quot;spacer&quot;&gt;&lt;/div&gt;
   &lt;div class=&quot;chart&quot; id=&quot;2-4&quot;&gt;&lt;/div&gt;
   &lt;div class=&quot;spacer&quot;&gt;&lt;/div&gt;
-  &lt;div id=&quot;table-scroll&quot;&gt;
+  &amp;lt;div id=&quot;table-scroll&quot; class='6-1&amp;gt;
     &lt;table&gt;
       &lt;tr&gt;&lt;td&gt;Github has strong support for SaaS integration (CI/CD services in particular), but these services are provided by third parties. Github's competitors such as Gitlab and Atlassian Bitbucket provide CI/CD functionality as part of their packages which would probably make me decide to use them instead of Github if I had to set up a new user account right now.&lt;/td&gt;&lt;/tr&gt;
       &lt;tr&gt;&lt;td&gt;Microsoft brings money, money means stable and reliable hosting of our source code.&lt;/td&gt;&lt;/tr&gt;
@@ -81,7 +156,7 @@
       &lt;tr&gt;&lt;td&gt;It's easy to migrate to other git hosting platforms, but that's not needed right now for me.&lt;/td&gt;&lt;/tr&gt;
     &lt;/table&gt;
   &lt;/div&gt;
-&lt;/div&gt;
+&lt;p&gt;&amp;lt;/div&amp;gt;&lt;/p&gt;
 
 &lt;script src=&quot;/assets/js/chart/01.js&quot;&gt;&lt;/script&gt;</content><summary type="html"></summary></entry><entry><title type="html">Result Google Form 3: Linux Distribution Or Bsd That Use Github</title><link href="https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-3-Linux-Distribution-or-BSD-that-use-GitHub/" rel="alternate" type="text/html" title="Result Google Form 3: Linux Distribution Or Bsd That Use Github" /><published>2018-07-13T00:00:00+09:00</published><updated>2018-07-13T00:00:00+09:00</updated><id>https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-3:-Linux-Distribution-or-BSD-that-use-GitHub</id><content type="html" xml:base="https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-3-Linux-Distribution-or-BSD-that-use-GitHub/">&lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js&quot;&gt;&lt;/script&gt;
 
@@ -108,7 +183,7 @@
 &lt;h2&gt;There are more thoughts on participants' idea of using and not using GitHub&lt;/h2&gt;
 &lt;!-- &lt;div class=&quot;spacer&quot;&gt;&lt;/div&gt; --&gt;
 
-&lt;div id=&quot;table-scroll&quot;&gt;
+&lt;div id=&quot;table-scroll&quot; class=&quot;3-3&quot;&gt;
   &lt;table&gt;
     &lt;tr&gt;&lt;td&gt;I like GitHub but I like GitLab more. The main point is there's more devs on GitHub than on GitLab at least for now&lt;/td&gt;&lt;/tr&gt;
     &lt;tr&gt;&lt;td&gt;FreeBSD doesn't use GitHub as its primary source anyway.&lt;/td&gt;&lt;/tr&gt;
