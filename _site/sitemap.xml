@@ -40,9 +40,9 @@
   
     <url>
       <loc>https://ammyblabla.github.io/microsoftGitHub/about/</loc>
-       <lastmod>2017-11-02T00:00:00+09:00</lastmod>
+       <lastmod>2018-07-17T00:00:00+09:00</lastmod>
       
-       <changefreq>weekly</changefreq>
+       <changefreq>never</changefreq>
       
        <priority>0.7</priority>
       
@@ -70,11 +70,11 @@
   
     <url>
       <loc>https://ammyblabla.github.io/microsoftGitHub/</loc>
-       <lastmod>2017-11-02T00:00:00+09:00</lastmod>
+       <lastmod>2017-11-10T00:20:35+00:00</lastmod>
       
        <changefreq>weekly</changefreq>
       
-       <priority>1.0</priority>
+       <priority>0.5</priority>
       
      </url>
   

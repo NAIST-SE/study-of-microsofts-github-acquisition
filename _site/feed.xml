@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://ammyblabla.github.io/microsoftGitHub/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://ammyblabla.github.io/microsoftGitHub/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ammyblabla.github.io/microsoftGitHub/" rel="alternate" type="text/html" /><updated>2018-07-17T14:35:18+09:00</updated><id>https://ammyblabla.github.io/microsoftGitHub/</id><title type="html">Impact of Microsoft Acquisition of GitHub</title><subtitle>Jekyll version of the Massively theme by HTML5UP</subtitle><entry><title type="html">Result from Google form (Part 1)</title><link href="https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-01/" rel="alternate" type="text/html" title="Result from Google form (Part 1)" /><published>2018-07-17T00:00:00+09:00</published><updated>2018-07-17T00:00:00+09:00</updated><id>https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-01</id><content type="html" xml:base="https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-01/">&lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://ammyblabla.github.io/microsoftGitHub/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://ammyblabla.github.io/microsoftGitHub/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ammyblabla.github.io/microsoftGitHub/" rel="alternate" type="text/html" /><updated>2018-07-17T23:27:25+09:00</updated><id>https://ammyblabla.github.io/microsoftGitHub/</id><title type="html">Impact of Microsoft Acquisition of GitHub</title><subtitle>Jekyll version of the Massively theme by HTML5UP</subtitle><entry><title type="html">Result from Google form (Part 1)</title><link href="https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-01/" rel="alternate" type="text/html" title="Result from Google form (Part 1)" /><published>2018-07-17T00:00:00+09:00</published><updated>2018-07-17T00:00:00+09:00</updated><id>https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-01</id><content type="html" xml:base="https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-01/">&lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js&quot;&gt;&lt;/script&gt;
 
 &lt;script src=&quot;https://code.highcharts.com/highcharts.js&quot;&gt;&lt;/script&gt;
 
@@ -187,21 +187,18 @@
 &lt;h2 id=&quot;3-design-question&quot;&gt;3. Design question&lt;/h2&gt;
 &lt;p&gt;Our question have to answer the assumptions and not straightforward. However, it is just draft, we create question straightforward and will revise them later.&lt;/p&gt;
 &lt;h2 id=&quot;how-to-answer&quot;&gt;How to answer&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;We try to make you easy to answer and not scroll anything for answer the questions.
-    &lt;h3 id=&quot;multiple-choice&quot;&gt;Multiple choice&lt;/h3&gt;
-    &lt;p&gt;&lt;img src=&quot;/images/choice/multiple.png&quot; alt=&quot;&quot; /&gt;
-I want participants to answer only one choice, so I use basic multiple choice. This is the easiest way to answer.&lt;/p&gt;
-    &lt;h3 id=&quot;checkbox&quot;&gt;Checkbox&lt;/h3&gt;
-    &lt;p&gt;&lt;img src=&quot;/images/choice/checkbox.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;We try to make you easy to answer and not scroll anything for answer the questions.&lt;/p&gt;
+&lt;h3 id=&quot;multiple-choice&quot;&gt;Multiple choice&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/images/choice/multiple.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-    &lt;p&gt;Some of participants hestitate to answer these questions, so participants can select more than one answer and can add new choice.&lt;/p&gt;
-    &lt;h3 id=&quot;linear-scale&quot;&gt;Linear scale&lt;/h3&gt;
-    &lt;p&gt;&lt;img src=&quot;/images/choice/linear_scale.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I want participants to answer only one choice, so I use basic multiple choice. This is the easiest way to answer.&lt;/p&gt;
+&lt;h3 id=&quot;checkbox&quot;&gt;Checkbox&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/images/choice/checkbox.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-    &lt;p&gt;Most of question use linear scale. Linear scale is easy to answer and interprete. We put “No opinion” at number 0 for hestitate participants.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Some of participants hestitate to answer these questions, so participants can select more than one answer and can add new choice.&lt;/p&gt;
+&lt;h3 id=&quot;linear-scale&quot;&gt;Linear scale&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/images/choice/linear_scale.png&quot; alt=&quot;&quot; /&gt;
+  Most of question use linear scale. Linear scale is easy to answer and interprete. We put “No opinion” at number 0 for hestitate participants.&lt;/p&gt;
 
 &lt;h3 id=&quot;long-answer&quot;&gt;Long answer&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&quot;/images/choice/long_answer.png&quot; alt=&quot;&quot; /&gt;
@@ -212,13 +209,17 @@ I want participants to answer only one choice, so I use basic multiple choice. T
   Actually, there are many great tools, but they have some limitations which affect with our work such as&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;I can create 10 questions per survey.&lt;/li&gt;
-  &lt;li&gt;I can resurve 100 response per month.&lt;/li&gt;
+  &lt;li&gt;Create no more than 10 questions per survey.&lt;/li&gt;
+  &lt;li&gt;Receive no more than 100 response per month.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;There are not enough for this survey.&lt;/p&gt;
 
-&lt;h2 id=&quot;5-design&quot;&gt;5. Design&lt;/h2&gt;</content><summary type="html">Making survey is heart of this work.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ammyblabla.github.io/microsoftGitHub/images/pic02.jpg" /></entry><entry><title type="html">Welcome to Massively: The Jekyll Theme!</title><link href="https://ammyblabla.github.io/microsoftGitHub/blog/welcome-to-massively-the-jekyll-theme/" rel="alternate" type="text/html" title="Welcome to Massively: The Jekyll Theme!" /><published>2017-10-31T00:00:00+09:00</published><updated>2017-10-31T00:00:00+09:00</updated><id>https://ammyblabla.github.io/microsoftGitHub/blog/welcome-to-massively-the-jekyll-theme</id><content type="html" xml:base="https://ammyblabla.github.io/microsoftGitHub/blog/welcome-to-massively-the-jekyll-theme/">&lt;h2 id=&quot;how-to-use-this-theme&quot;&gt;How to Use This Theme&lt;/h2&gt;
+&lt;h2 id=&quot;5-design-section&quot;&gt;5. Design Section&lt;/h2&gt;
+&lt;p&gt;Good spliting section will make good participant experience.&lt;/p&gt;
+&lt;h3 id=&quot;participants-should-not-scroll-while-apply-a-survey&quot;&gt;Participants should not scroll while apply a survey.&lt;/h3&gt;
+&lt;h3 id=&quot;but-dont-split-too-much-section&quot;&gt;but don’t split too much section&lt;/h3&gt;
+&lt;h3 id=&quot;hide-page-number-or-survey-progress-if-you-use-logic-flow&quot;&gt;Hide page number or survey progress if you use logic flow.&lt;/h3&gt;</content><summary type="html">Making survey is heart of this work.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ammyblabla.github.io/microsoftGitHub/images/survey_cover.png" /></entry><entry><title type="html">Welcome to Massively: The Jekyll Theme!</title><link href="https://ammyblabla.github.io/microsoftGitHub/blog/welcome-to-massively-the-jekyll-theme/" rel="alternate" type="text/html" title="Welcome to Massively: The Jekyll Theme!" /><published>2017-10-31T00:00:00+09:00</published><updated>2017-10-31T00:00:00+09:00</updated><id>https://ammyblabla.github.io/microsoftGitHub/blog/welcome-to-massively-the-jekyll-theme</id><content type="html" xml:base="https://ammyblabla.github.io/microsoftGitHub/blog/welcome-to-massively-the-jekyll-theme/">&lt;h2 id=&quot;how-to-use-this-theme&quot;&gt;How to Use This Theme&lt;/h2&gt;
 &lt;p&gt;Just go ahead and read up on &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;how to install Jekyll&lt;/a&gt;. It’s not too hard I promise!&lt;/p&gt;
 
 &lt;p&gt;Download this repository &lt;a href=&quot;https://github.com/iwiedenm/jekyll-theme-massively&quot;&gt;here&lt;/a&gt; and save it to any folder you want.&lt;/p&gt;
