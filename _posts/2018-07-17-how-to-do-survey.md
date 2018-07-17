@@ -29,11 +29,13 @@ Our question have to answer the assumptions and not straightforward. However, it
 ## How to answer
 - We try to make you easy to answer and not scroll anything for answer the questions.
 ### Multiple choice
-![](/images/choice/multiple.png)
+![]({{ "/images/choice/multiple.png" | absolute_url }})
 I want participants to answer only one choice, so I use basic multiple choice. This is the easiest way to answer.
 ### Checkbox
 ![](/images/choice/checkbox.png)
 
-Some of participants hestitate to answer these questions, so participants can select more than one answer and can add new choice.
+  Some of participants hestitate to answer these questions, so participants can select more than one answer and can add new choice.
 ### Linear scale
-  Thjos
+
+  Most of question use linear scale. Linear scale is easy to answer and interprete. We put "No opinion" at number 0 for hestitate participants.
+
