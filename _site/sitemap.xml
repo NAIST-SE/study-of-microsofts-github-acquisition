@@ -2,7 +2,43 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
-      <loc>/blog/result-google-form-1-Developer-Perception-to-Microsoft's-Acquisition-of-GitHub/</loc>
+      <loc>https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-02/</loc>
+      
+        <lastmod>2018-07-16T00:00:00+09:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-01/</loc>
+      
+        <lastmod>2018-07-16T00:00:00+09:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-3-Linux-Distribution-or-BSD-that-use-GitHub/</loc>
+      
+        <lastmod>2018-07-13T00:00:00+09:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-2-On-Microsoft's-acquisition-of-GitHub/</loc>
+      
+        <lastmod>2018-07-13T00:00:00+09:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-1-Developer-Perception-to-Microsoft's-Acquisition-of-GitHub/</loc>
       
         <lastmod>2018-07-12T00:00:00+09:00</lastmod>
       
@@ -11,7 +47,7 @@
     </url>
   
     <url>
-      <loc>/blog/welcome-to-massively-the-jekyll-theme/</loc>
+      <loc>https://ammyblabla.github.io/microsoftGitHub/blog/welcome-to-massively-the-jekyll-theme/</loc>
       
         <lastmod>2017-10-31T00:00:00+09:00</lastmod>
       
@@ -21,7 +57,7 @@
   
   
     <url>
-      <loc>/about/</loc>
+      <loc>https://ammyblabla.github.io/microsoftGitHub/about/</loc>
        <lastmod>2017-11-02T00:00:00+09:00</lastmod>
       
        <changefreq>weekly</changefreq>
@@ -31,7 +67,7 @@
      </url>
   
     <url>
-      <loc>/blog/</loc>
+      <loc>https://ammyblabla.github.io/microsoftGitHub/blog/</loc>
        <lastmod>2017-11-02T00:00:00+09:00</lastmod>
       
        <changefreq>weekly</changefreq>
@@ -41,7 +77,7 @@
      </url>
   
     <url>
-      <loc>/elements/</loc>
+      <loc>https://ammyblabla.github.io/microsoftGitHub/elements/</loc>
        <lastmod>2017-11-02T00:00:00+09:00</lastmod>
       
        <changefreq>weekly</changefreq>
@@ -51,7 +87,7 @@
      </url>
   
     <url>
-      <loc>/</loc>
+      <loc>https://ammyblabla.github.io/microsoftGitHub/</loc>
        <lastmod>2017-11-02T00:00:00+09:00</lastmod>
       
        <changefreq>weekly</changefreq>
@@ -61,7 +97,7 @@
      </url>
   
     <url>
-      <loc>/sitemap.xml</loc>
+      <loc>https://ammyblabla.github.io/microsoftGitHub/sitemap.xml</loc>
        <lastmod>2017-11-10T00:20:35+00:00</lastmod>
       
        <changefreq>weekly</changefreq>
@@ -71,7 +107,7 @@
      </url>
   
     <url>
-      <loc>/feed.xml</loc>
+      <loc>https://ammyblabla.github.io/microsoftGitHub/feed.xml</loc>
        <lastmod>2017-11-10T00:20:35+00:00</lastmod>
       
        <changefreq>weekly</changefreq>
@@ -81,7 +117,7 @@
      </url>
   
     <url>
-      <loc>/feed.xslt.xml</loc>
+      <loc>https://ammyblabla.github.io/microsoftGitHub/feed.xslt.xml</loc>
        <lastmod>2017-11-10T00:20:35+00:00</lastmod>
       
        <changefreq>weekly</changefreq>

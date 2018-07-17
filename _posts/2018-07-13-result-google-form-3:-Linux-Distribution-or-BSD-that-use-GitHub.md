@@ -8,8 +8,9 @@ comments: true
 <script src="https://code.highcharts.com/highcharts.js"></script>
 <script src="https://code.highcharts.com/modules/exporting.js"></script>
 <script src="https://code.highcharts.com/modules/export-data.js"></script>
-<link rel="stylesheet" href="/assets/css/chart.css">
-<link rel="stylesheet" href="/assets/css/table.css">
+<link rel="stylesheet" href="{{ "/assets/css/table.css" | absolute_url }}">
+<link rel="stylesheet" href="{{ "/assets/css/chart.css" | absolute_url }}">
+
 
 <p>The aim of this section is to understand your personal opinions regarding the acquisition of GitHub by Microsoft in June 2018. Please note that all contributions (i.e., projects) we mention refer to either the Linux distribution/kernel or Berkeley Software Distribution (i.e., BSD).</p>
 <div id="content">
@@ -31,7 +32,7 @@ comments: true
     <tr><td>i do not trust microsoft</td></tr>
     <tr><td>It's quite hard for me to trust Microsoft, they're probably still planning to EEE stuff - even a "harmless" tiger raised in captivity will still bite.</td></tr>
     <tr><td>The problem is, if too much devs move to other platforms, then the greatest benefit of GitHib (easy cross-contribution and linking between different projects) will be lost. Thus follow the herd ;).</td></tr>
-    <tr><td>Microsoft has shown multiple times in the past that they have no problems stealing ideas from open source software. Their ability to change the foundations and the fundamentals of your project by using terms and conditions will result in a poorer product and more people worried about legal implications instead of writing code.<br><br>It's just better and easier to move to a different system.</td></tr>
+    <tr><td>Microsoft has shown multiple times in the past that they have no problems stealing ideas from open source software. Their ability to change the foundations and the fundamentals of your project by using terms and conditions will result in a poorer product and more people worried about legal implications instead of writing code.<br><br  >It's just better and easier to move to a different system.</td></tr>
     <tr><td>Github has strong support for SaaS integration (CI/CD services in particular), but these services are provided by third parties. Github's competitors such as Gitlab and Atlassian Bitbucket provide CI/CD functionality as part of their packages which would probably make me decide to use them instead of Github if I had to set up a new user account right now.</td></tr>
     <tr><td>Usability and access to versioning is not userfriendly, and needs to learn commands and knowledge to make the best use of it.</td></tr>
     <tr><td>It's easy to migrate to other git hosting platforms, but that's not needed right now for me.</td></tr>

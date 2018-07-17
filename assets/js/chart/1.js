@@ -1,4 +1,4 @@
-var responses = 218;
+var responses = 228;
 
 var themeColor = ['#2f7ed8', '#0d233a', '#8bbc21', '#910000', '#1aadce',
 '#492970', '#f28f43', '#77a1e5', '#c42525', '#a6c96a'];
@@ -57,8 +57,8 @@ var config = [
     type: 'pie',
     question: 'Are you a fan of GitHub?',
     data: [
-      { name: 'Yes', y: 138 }, 
-      { name: 'No',  y: 80 }
+      { name: 'Yes', y: 142 }, 
+      { name: 'No',  y: 84 }
     ]
   },
   // question3
@@ -138,7 +138,7 @@ $(function() {
           cursor: 'pointer',
           dataLabels: {
             enabled: true,
-            format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+            format: '<b>{point.name}: {point.y}</b> ({point.percentage:.1f} %)',
           }
         }
       },
