@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://ammyblabla.github.io/microsoftGitHub/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://ammyblabla.github.io/microsoftGitHub/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ammyblabla.github.io/microsoftGitHub/" rel="alternate" type="text/html" /><updated>2018-07-18T09:56:10+09:00</updated><id>https://ammyblabla.github.io/microsoftGitHub/</id><title type="html">Impact of Microsoft Acquisition of GitHub</title><subtitle>Jekyll version of the Massively theme by HTML5UP</subtitle><entry><title type="html">Result from Google form (Part 1)</title><link href="https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-01/" rel="alternate" type="text/html" title="Result from Google form (Part 1)" /><published>2018-07-17T00:00:00+09:00</published><updated>2018-07-17T00:00:00+09:00</updated><id>https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-01</id><content type="html" xml:base="https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-01/">&lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://ammyblabla.github.io/microsoftGitHub/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://ammyblabla.github.io/microsoftGitHub/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ammyblabla.github.io/microsoftGitHub/" rel="alternate" type="text/html" /><updated>2018-07-18T10:52:22+09:00</updated><id>https://ammyblabla.github.io/microsoftGitHub/</id><title type="html">Impact of Microsoft Acquisition of GitHub</title><subtitle>Jekyll version of the Massively theme by HTML5UP</subtitle><entry><title type="html">Result from Google form (Part 1)</title><link href="https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-01/" rel="alternate" type="text/html" title="Result from Google form (Part 1)" /><published>2018-07-17T00:00:00+09:00</published><updated>2018-07-17T00:00:00+09:00</updated><id>https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-01</id><content type="html" xml:base="https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-01/">&lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js&quot;&gt;&lt;/script&gt;
 
 &lt;script src=&quot;https://code.highcharts.com/highcharts.js&quot;&gt;&lt;/script&gt;
 
@@ -160,7 +160,44 @@
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;script src=&quot;/assets/js/chart/02.js&quot;&gt;&lt;/script&gt;</content><summary type="html"></summary></entry><entry><title type="html">How to send this survey?</title><link href="https://ammyblabla.github.io/microsoftGitHub/blog/how-to-send-survey/" rel="alternate" type="text/html" title="How to send this survey?" /><published>2018-07-01T00:00:00+09:00</published><updated>2018-07-01T00:00:00+09:00</updated><id>https://ammyblabla.github.io/microsoftGitHub/blog/how-to-send-survey</id><content type="html" xml:base="https://ammyblabla.github.io/microsoftGitHub/blog/how-to-send-survey/">&lt;p&gt;Sending survey is one of important&lt;/p&gt;</content><summary type="html">Making survey is heart of this work.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ammyblabla.github.io/microsoftGitHub/images/survey_cover.png" /></entry><entry><title type="html">How to make this survey?</title><link href="https://ammyblabla.github.io/microsoftGitHub/blog/how-to-do-survey/" rel="alternate" type="text/html" title="How to make this survey?" /><published>2018-07-01T00:00:00+09:00</published><updated>2018-07-01T00:00:00+09:00</updated><id>https://ammyblabla.github.io/microsoftGitHub/blog/how-to-do-survey</id><content type="html" xml:base="https://ammyblabla.github.io/microsoftGitHub/blog/how-to-do-survey/">&lt;p&gt;Our survey available on this link https://goo.gl/forms/xe8Y1MrvUO83rfKK2&lt;/p&gt;
+&lt;script src=&quot;/assets/js/chart/02.js&quot;&gt;&lt;/script&gt;</content><summary type="html"></summary></entry><entry><title type="html">How to send this survey?</title><link href="https://ammyblabla.github.io/microsoftGitHub/blog/how-to-send-survey/" rel="alternate" type="text/html" title="How to send this survey?" /><published>2018-07-01T00:00:00+09:00</published><updated>2018-07-01T00:00:00+09:00</updated><id>https://ammyblabla.github.io/microsoftGitHub/blog/how-to-send-survey</id><content type="html" xml:base="https://ammyblabla.github.io/microsoftGitHub/blog/how-to-send-survey/">&lt;p&gt;Sending survey is one of important process. We pay much attention to select the target and channel. We want to make sure this request does not disturb developers working. However, Getting answer is very important too. We would like to get answer from our target, does not just people from somewhere.&lt;/p&gt;
+
+&lt;p&gt;There are 3 choices for us.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Forums&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Forum is the most open way. Everyone can see this survey request, but we want to make sure our participants are our target. We solve this problem by choosing specific forums. We choose each distribution forums. In these forums, there are contributor and users.&lt;/p&gt;
+
+&lt;p&gt;You should post on the most opened room, off-topic or general room. Specific room may disturb developers because they may use these forum to track user issue.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Mailing Lists&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Mailing lists means send only one mail but receivers are who subscribe mailing lists so there are more than one receivers.
+Developers usually use mailing lists to communicate in their work, so it may disturb developers’ working. However mailing lists are better than forums if we want to specify our target. The request of mailing lists should be more personal than forums example for the forums,&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Dear contributors,&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For mailing list, we change it into..&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Dear XXXXX developers,&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Both forums and mailing lists have “rules”. You have to read it before post or send something. If the rule do not let us to post, you do not post or send. If you violate, you may be banned. It is hard for you to send further survey on the banning forums.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Developer’s Email&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This one is the most specific way to send. In my opinion, if I recieve survey invitation email, I will think it is spam and I will throw it to the trash. However, this is the last choice and we did not send any request via email since we recieve enough reponses from both mailing lists and forums.&lt;/p&gt;
+
+&lt;p&gt;You can find developers’ email by their GitHub. You get the developers GitHub username and search them on the Internet. Some of distros reveal their team on their website, and some of distros also reveal email.&lt;/p&gt;
+
+&lt;p&gt;Moreover there are “contact form”. We do not send via contact form because we do not sure our target receive this request or not. Some of them may be reach because developers monitor this form by themselves, but some of form sales monitor this form and may look over this request.&lt;/p&gt;</content><summary type="html">Making survey is heart of this work.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ammyblabla.github.io/microsoftGitHub/images/survey_cover.png" /></entry><entry><title type="html">How to make this survey?</title><link href="https://ammyblabla.github.io/microsoftGitHub/blog/how-to-do-survey/" rel="alternate" type="text/html" title="How to make this survey?" /><published>2018-07-01T00:00:00+09:00</published><updated>2018-07-01T00:00:00+09:00</updated><id>https://ammyblabla.github.io/microsoftGitHub/blog/how-to-do-survey</id><content type="html" xml:base="https://ammyblabla.github.io/microsoftGitHub/blog/how-to-do-survey/">&lt;p&gt;Our survey available on this link https://goo.gl/forms/xe8Y1MrvUO83rfKK2&lt;/p&gt;
 
 &lt;h2 id=&quot;1-reading-news-and-article-about-microsoft-aquisition&quot;&gt;1. reading news and article about Microsoft aquisition.&lt;/h2&gt;
 &lt;ul&gt;
