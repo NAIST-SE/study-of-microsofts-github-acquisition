@@ -8,12 +8,12 @@ sitemap:
     changefreq: never
 ---
 
-<link rel="stylesheet" href="/assets/css/team.css">
+<link rel="stylesheet" href="{{ "/assets/css/team.css" | absolute_url }}">
 
 <div class="grid-container">
   <div class="row">
     <div class="col-2">
-      <img src="/images/avatar.jpg" id="avatar">
+      <img src="{{ "/images/avatar.jpg" | absolute_url }}" id="avatar">
     </div>
     <div class="col-4">
       <h2>XXXXXX XXXXXXXX</h2>
@@ -33,7 +33,7 @@ sitemap:
       </ul>
     </div>
     <div class="col-2">
-      <img src="/images/avatar.jpg" id="avatar" align="right">
+      <img src="{{ "/images/avatar.jpg" | absolute_url }}" id="avatar" align="right">
     </div>
   </div> 
 </div>
