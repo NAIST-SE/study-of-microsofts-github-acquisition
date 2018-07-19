@@ -15,10 +15,8 @@ comments: true
 <h2 style="text-align:center;">Result from Google form</h2>
 <div id="content">
   <div class="chart" id="7-2"></div>
-  sdfdfdf
   <div class="spacer"></div>
   <div class="chart" id="8-2"></div>
-  dfdf
   <div class="spacer"></div>
   <div class="chart" id="8-4"></div>
 </div>
