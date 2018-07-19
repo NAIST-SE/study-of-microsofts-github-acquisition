@@ -9,7 +9,7 @@ var benefitLabel = ['No opinion','Very detrimental','Detrimental','Neutral','Ben
 
 var createSeries= function(label, data) {
   series = [];
-  for(let i=0; i<data.length; i++) {
+  for(var i = 0; i<data.length; i++) {
     series[i] = [label[i], data[i]]
   }
   return series;

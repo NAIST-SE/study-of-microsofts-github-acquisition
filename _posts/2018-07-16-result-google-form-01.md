@@ -26,6 +26,7 @@ comments: true
   <h2>2. Which do you think the acquisition will be beneficial or detrimental to any of the projects that you contribute torwards?</h2>
   <div class="chart" id="2-1"></div>
   <div class="spacer"></div>
+  sdfsdsd
   <div class="chart" id="2-2"></div>
   <div class="spacer"></div>
   <div class="chart" id="2-4"></div>

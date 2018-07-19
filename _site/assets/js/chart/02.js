@@ -6,6 +6,8 @@ var redBlueColor = ['#0000FF','#FF0000','#00FF00'];
 
 var agreeLabel = ['No opinion','Strongly disagree','Disagree','Neutral','Agree','Strongly agree'];
 var benefitLabel = ['No opinion','Very detrimental','Detrimental','Neutral','Beneficial','Very beneficial'];
+var relateLabel = ['No opinion','No relation','Less relation','Neutral','Related','Strongly related'];
+
 
 var createSeries= function(label, data) {
   series = [];
@@ -49,19 +51,22 @@ var config = {
     type: 'column',
     data: [8,44,21,18,21,15],
     question: 'Do you think it would be a good idea to move the project away from GitHub?',
-    max: 50
+    max: 50,
+    label: agreeLabel
   },
   '4-1': {
     type: 'column',
     data: [9,3,1,4,13,42],
     question: 'How much do you think this decision to move away from GitHub was related to the acquisition? If no opinion, select 0.',
-    max: 50
+    max: 50,
+    label: relateLabel
   },
   '5-1': {
     type: 'column',
     data: [1,24,3,1,0,0],
     question: 'Do you think it would be a good idea to move the project to GitHub? If no opinion, select 0.',
-    max: 25
+    max: 25,
+    label: agreeLabel
   },
   '5-3': {
     type: 'pie',
@@ -92,7 +97,7 @@ $(function() {
       },
       series: [{
         name: 'Population',
-        data: createSeries(benefitLabel, config['3-1'].data),
+        data: createSeries(config['3-1'].label, config['3-1'].data),
         dataLabels: {
           enabled: true,
           color: '#FFFFFF',
@@ -120,7 +125,7 @@ $(function() {
       },
       series: [{
         name: 'Population',
-        data: createSeries(agreeLabel, config['4-1'].data),
+        data: createSeries(config['4-1'].label, config['4-1'].data),
         dataLabels: {
           enabled: true,
           color: '#FFFFFF',
@@ -148,7 +153,7 @@ $(function() {
       },
       series: [{
         name: 'Population',
-        data: createSeries(agreeLabel, config['5-1'].data),
+        data: createSeries(config['5-1'].label, config['5-1'].data),
         dataLabels: {
           enabled: true,
           color: '#FFFFFF',
