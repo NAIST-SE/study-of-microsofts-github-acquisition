@@ -1,6 +1,7 @@
 ---
 layout: post
 comments: true
+title:  "Result from Google form (Part 2)"
 # other options
 ---
 

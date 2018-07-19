@@ -8,7 +8,7 @@ var agreeLabel = ['No opinion','Strongly disagree','Disagree','Neutral','Agree',
 var benefitLabel = ['No opinion','Very detrimental','Detrimental','Neutral','Beneficial','Very beneficial'];
 
 var createSeries= function(label, data) {
-  series = [];
+  var series = [];
   for(var i = 0; i<data.length; i++) {
     series[i] = [label[i], data[i]]
   }
@@ -76,7 +76,7 @@ var config = {
     data: [43,73,51,39,14,8],
     question: 'Which do you think the acquisition will be beneficial or detrimental to any of the projects that you contribute towards?',
     max: 80,
-    lable: benefitLabel
+    label: benefitLabel
   },
   '2-2': {
     type: 'column',
