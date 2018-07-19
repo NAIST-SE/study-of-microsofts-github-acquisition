@@ -14,12 +14,19 @@ comments: true
 <link rel="stylesheet" href="{{ "/assets/css/table.css" | absolute_url }}">
 <link rel="stylesheet" href="{{ "/assets/css/chart.css" | absolute_url }}">
 
-<div id="content">
+<div id="content">   
+  <h2>1. Which of the roles best describe your main activities within the Linux (distribution or kernel) or BSD?</h2>
   <div class="chart" id="1-1"></div>
+  <p>This question is the checkbox ,so participants can answer more than one choice. As a chart, most of participant is casual developers.</p>
   <div class="spacer"></div>
+  <h2>2. Are you the fan of GitHub?</h2>
   <div class="chart" id="1-2"></div>
+  <p>Even though Microsoft acquire GitHub and Ballmer , Microsoft's ex-CEO, told "Linux is a cancer". Most of participant still is GitHub fans.</p>
   <div class="spacer"></div>
+  <h2>2. Which do you think the acquisition will be beneficial or detrimental to any of the projects that you contribute torwards?</h2>
   <div class="chart" id="2-1"></div>
+  <div class="spacer"></div>
+  <div class="chart" id="2-2"></div>
   <div class="spacer"></div>
   <div class="chart" id="2-4"></div>
   <div class="spacer"></div>

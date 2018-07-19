@@ -75,7 +75,15 @@ var config = {
     type: 'column',
     data: [43,73,51,39,14,8],
     question: 'Which do you think the acquisition will be beneficial or detrimental to any of the projects that you contribute towards?',
-    max: 80
+    max: 80,
+    lable: benefitLabel
+  },
+  '2-2': {
+    type: 'column',
+    data: [24,116,58,21,5,12],
+    question: 'Do you agree that the acquisition will trigger even more expansion of Free and Open Source contributors in GitHub?',
+    label: agreeLabel,
+    max: 150
   },
   // question 2-4
   '2-4': {
@@ -166,7 +174,35 @@ $(function() {
       },
       series: [{
         name: 'Population',
-        data: createSeries(benefitLabel, config['2-1'].data),
+        data: createSeries(config['2-1'].label, config['2-1'].data),
+        dataLabels: {
+          enabled: true,
+          color: '#FFFFFF',
+          formatter: function(){
+            var pcnt = (this.y / responses) * 100;
+            return this.y + ' ('+ Highcharts.numberFormat(pcnt,1) + ')%';
+    
+          },
+          y: 10, // 10 pixels down from the top
+          style: style
+        }
+      }]
+    });
+
+    var chart22 = new Highcharts.Chart('2-2', {
+      chart: { type: config['2-2'].type },
+      title: { text: config['2-2'].question },
+      xAxis: xAxis,
+      yAxis: yAxis(config['2-2'].max),
+      legend: {
+        enabled: false
+      },
+      tooltip: {
+        pointFormat: '{point.y}</b>'
+      },
+      series: [{
+        name: 'Population',
+        data: createSeries(config['2-2'].label, config['2-2'].data),
         dataLabels: {
           enabled: true,
           color: '#FFFFFF',

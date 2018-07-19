@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://ammyblabla.github.io/microsoftGitHub/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://ammyblabla.github.io/microsoftGitHub/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ammyblabla.github.io/microsoftGitHub/" rel="alternate" type="text/html" /><updated>2018-07-18T11:52:24+09:00</updated><id>https://ammyblabla.github.io/microsoftGitHub/</id><title type="html">Impact of Microsoft Acquisition of GitHub</title><subtitle>Jekyll version of the Massively theme by HTML5UP</subtitle><entry><title type="html">Result from Google form (Part 1)</title><link href="https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-01/" rel="alternate" type="text/html" title="Result from Google form (Part 1)" /><published>2018-07-17T00:00:00+09:00</published><updated>2018-07-17T00:00:00+09:00</updated><id>https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-01</id><content type="html" xml:base="https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-01/">&lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://ammyblabla.github.io/microsoftGitHub/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://ammyblabla.github.io/microsoftGitHub/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ammyblabla.github.io/microsoftGitHub/" rel="alternate" type="text/html" /><updated>2018-07-19T16:32:20+09:00</updated><id>https://ammyblabla.github.io/microsoftGitHub/</id><title type="html">Impact of Microsoft Acquisition of GitHub</title><subtitle>Jekyll version of the Massively theme by HTML5UP</subtitle><entry><title type="html">Result from Google form (Part 1)</title><link href="https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-01/" rel="alternate" type="text/html" title="Result from Google form (Part 1)" /><published>2018-07-17T00:00:00+09:00</published><updated>2018-07-17T00:00:00+09:00</updated><id>https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-01</id><content type="html" xml:base="https://ammyblabla.github.io/microsoftGitHub/blog/result-google-form-01/">&lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js&quot;&gt;&lt;/script&gt;
 
 &lt;script src=&quot;https://code.highcharts.com/highcharts.js&quot;&gt;&lt;/script&gt;
 
@@ -10,12 +10,19 @@
 
 &lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/chart.css&quot; /&gt;
 
-&lt;div id=&quot;content&quot;&gt;
+&lt;div id=&quot;content&quot;&gt;   
+  &lt;h2&gt;1. Which of the roles best describe your main activities within the Linux (distribution or kernel) or BSD?&lt;/h2&gt;
   &lt;div class=&quot;chart&quot; id=&quot;1-1&quot;&gt;&lt;/div&gt;
+  &lt;p&gt;This question is the checkbox ,so participants can answer more than one choice. As a chart, most of participant is casual developers.&lt;/p&gt;
   &lt;div class=&quot;spacer&quot;&gt;&lt;/div&gt;
+  &lt;h2&gt;2. Are you the fan of GitHub?&lt;/h2&gt;
   &lt;div class=&quot;chart&quot; id=&quot;1-2&quot;&gt;&lt;/div&gt;
+  &lt;p&gt;Even though Microsoft acquire GitHub and Ballmer , Microsoft's ex-CEO, told &quot;Linux is a cancer&quot;. Most of participant still is GitHub fans.&lt;/p&gt;
   &lt;div class=&quot;spacer&quot;&gt;&lt;/div&gt;
+  &lt;h2&gt;2. Which do you think the acquisition will be beneficial or detrimental to any of the projects that you contribute torwards?&lt;/h2&gt;
   &lt;div class=&quot;chart&quot; id=&quot;2-1&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;spacer&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;chart&quot; id=&quot;2-2&quot;&gt;&lt;/div&gt;
   &lt;div class=&quot;spacer&quot;&gt;&lt;/div&gt;
   &lt;div class=&quot;chart&quot; id=&quot;2-4&quot;&gt;&lt;/div&gt;
   &lt;div class=&quot;spacer&quot;&gt;&lt;/div&gt;
