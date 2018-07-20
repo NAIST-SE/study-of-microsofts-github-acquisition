@@ -54,12 +54,30 @@ var config = {
       { name: 'No',  y: 13 }
     ]
   },
+  // core contributor
+  '13-2': {
+    type: 'pie',
+    question: 'Are you a fan of GitHub?',
+    data: [
+      { name: 'Yes', y: 28 }, 
+      { name: 'No',  y: 18 }
+    ]
+  },
+  // casual contributor
+  '19-2': {
+    type: 'pie',
+    question: 'Are you a fan of GitHub?',
+    data: [
+      { name: 'Yes', y: 80 }, 
+      { name: 'No',  y: 56 }
+    ]
+  },
   '8-2': {
     type: 'column',
     data: [8,25,7,2,2,1],
     question: 'Do you agree that the acquisition will trigger even more expansion of Free and Open Source contributors in GitHub?',
     label: agreeLabel,
-    max: 25
+    max: 30
 
   },
   '8-4': {

@@ -156,7 +156,7 @@ $(function() {
           enabled: true,
           color: '#FFFFFF',
           formatter: function(){
-            var pcnt = (this.y / config['5-1'].data.reduce((a, b) => a + b, 0)) * 100.0;
+            var pcnt = (this.y / config['5-1'].data.reduce((a, b) => a + b, 0)) * 100;
             return this.y + ' ('+ Highcharts.numberFormat(pcnt,1) + ')%';
     
           },

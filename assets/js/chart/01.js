@@ -50,15 +50,11 @@ var config = {
     type: 'bar',
     question: 'Which of the roles best describe your main activities within the Linux (distributions or kernel) or BSD?',
     data: [
-      ['Project Manager/Project Leader', 41],
-      ['Core contributor', 52],
-      ['Casual contributor', 129],
-      ['User', 5],
-      ['administrator, integrator', 1],
-      ['Tester', 1],
-      ['I use it for my own computing/donate to projects who develop my distro.',1],
-      ['Third party software developer',1],
-      ['Independent open source developer', 1]
+      ['Project Manager/Project Leader', 45],
+      ['Core contributor', 63],
+      ['Casual contributor', 144],
+      ['User', 6],
+      ['Others', 11]
     ]
   },
   // question1-2
