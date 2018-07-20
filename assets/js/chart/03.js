@@ -16,8 +16,15 @@ var createSeries= function(label, data) {
 };
 
 var style = {
-    fontSize: '13px',
+    fontSize: '16px',
     fontFamily: 'Helvetica'
+};
+
+var pieStyle = {
+  enabled: true,
+  fontSize: '16px',
+  fontFamily: 'Helvetica',
+  format: '<b>{point.name}: {point.y}</b> ({point.percentage:.1f} %)'
 };
 
 var xAxis = {
@@ -118,6 +125,7 @@ $(function() {
           dataLabels: {
             enabled: true,
             format: '<b>{point.name}: {point.y}</b> ({point.percentage:.1f} %)',
+            style: style
           }
         }
       },
@@ -145,6 +153,7 @@ $(function() {
           dataLabels: {
             enabled: true,
             format: '<b>{point.name}: {point.y}</b> ({point.percentage:.1f} %)',
+            style: style
           }
         }
       },
@@ -171,6 +180,7 @@ $(function() {
           dataLabels: {
             enabled: true,
             format: '<b>{point.name}: {point.y}</b> ({point.percentage:.1f} %)',
+            style: style
           }
         }
       },
@@ -247,5 +257,7 @@ $(function() {
           data: createPieLabel(config['8-4'].label, config['8-4'].data)
       }]
     });
+
+
   });
 });
