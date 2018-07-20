@@ -1,4 +1,4 @@
-var responses = 231;
+var responses = 236;
 
 var themeColor = ['#2f7ed8', '#0d233a', '#8bbc21', '#910000', '#1aadce',
 '#492970', '#f28f43', '#77a1e5', '#c42525', '#a6c96a'];
@@ -66,14 +66,14 @@ var config = {
     type: 'pie',
     question: 'Are you a fan of GitHub?',
     data: [
-      { name: 'Yes', y: 142 }, 
-      { name: 'No',  y: 84 }
+      { name: 'Yes', y: 148 }, 
+      { name: 'No',  y: 88 }
     ]
   },
   // question2-1
   '2-1': {
     type: 'column',
-    data: [43,73,51,39,14,8],
+    data: [43,777,53,41,14,8],
     question: 'Which do you think the acquisition will be beneficial or detrimental to any of the projects that you contribute towards?',
     max: 80,
     label: benefitLabel
@@ -88,7 +88,7 @@ var config = {
   // question 2-4
   '2-4': {
     type: 'pie',
-    data: [124,68,27],
+    data: [132,74,30],
     question: 'Which statement best describes your current situation with any of your contributed projects?',
     label: [ 'The projects that I contribute to the most is currently using GitHub (currently using GitHub)',
     'One of the projects that have made contributions has already left GitHub (used before but not now)',

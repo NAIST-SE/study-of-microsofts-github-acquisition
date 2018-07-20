@@ -1,5 +1,3 @@
-var responses = 219;
-
 var themeColor = ['#2f7ed8', '#0d233a', '#8bbc21', '#910000', '#1aadce',
 '#492970', '#f28f43', '#77a1e5', '#c42525', '#a6c96a'];
 var redBlueColor = ['#0000FF','#FF0000','#00FF00'];
@@ -102,7 +100,7 @@ $(function() {
           enabled: true,
           color: '#FFFFFF',
           formatter: function(){
-            var pcnt = (this.y / responses) * 100;
+            var pcnt = (this.y / config['3-1'].data.reduce((a, b) => a + b, 0)) * 100;
             return this.y + ' ('+ Highcharts.numberFormat(pcnt,1) + ')%';
     
           },
@@ -130,7 +128,7 @@ $(function() {
           enabled: true,
           color: '#FFFFFF',
           formatter: function(){
-            var pcnt = (this.y / responses) * 100;
+            var pcnt = (this.y / config['4-1'].data.reduce((a, b) => a + b, 0)) * 100;
             return this.y + ' ('+ Highcharts.numberFormat(pcnt,1) + ')%';
     
           },
@@ -158,7 +156,7 @@ $(function() {
           enabled: true,
           color: '#FFFFFF',
           formatter: function(){
-            var pcnt = (this.y / responses) * 100;
+            var pcnt = (this.y / config['5-1'].data.reduce((a, b) => a + b, 0)) * 100.0;
             return this.y + ' ('+ Highcharts.numberFormat(pcnt,1) + ')%';
     
           },
