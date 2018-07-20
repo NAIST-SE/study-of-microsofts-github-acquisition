@@ -54,7 +54,7 @@ var config = {
   },
   '4-1': {
     type: 'column',
-    data: [9,3,1,4,13,42],
+    data: [10,3,1,4,13,43],
     question: 'How much do you think this decision to move away from GitHub was related to the acquisition? If no opinion, select 0.',
     max: 50,
     label: relateLabel
@@ -68,7 +68,7 @@ var config = {
   },
   '5-3': {
     type: 'pie',
-    data: [19,10],
+    data: [19,11],
     question: 'Apart from Linux and BSD contributions, have you had personal experiences with the GitHub Platform?',
     label: [ 'Yes, I contribute to other open source projects or have personal projects on GitHub.',
     'No, I have never contributed to projects hosted on GitHub.'
@@ -188,7 +188,7 @@ $(function() {
               cursor: 'pointer',
               dataLabels: {
                   enabled: true,
-                  format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                  format: '<b>{point.name}</b>: {point.y} ({point.percentage:.1f}%)',
               }
           }
       },

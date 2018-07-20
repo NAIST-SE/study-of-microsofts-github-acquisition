@@ -69,7 +69,7 @@ var config = {
   // question2-1
   '2-1': {
     type: 'column',
-    data: [43,777,53,41,14,8],
+    data: [43,77,53,41,14,8],
     question: 'Which do you think the acquisition will be beneficial or detrimental to any of the projects that you contribute towards?',
     max: 80,
     label: benefitLabel

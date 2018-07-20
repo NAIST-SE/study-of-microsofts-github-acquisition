@@ -128,6 +128,61 @@ $(function() {
       }]
     });
 
+
+    var chart132 = new Highcharts.Chart('13-2', {
+      chart: {
+        plotBackgroundColor: null,
+        plotBorderWidth: null,
+        plotShadow: false,
+        type: config['13-2'].type
+      },
+      title: { text: config['13-2'].question },
+      tooltip: { pointFormat: '{point.y} ({point.percentage:.1f}%)</b>'},
+      plotOptions: {
+        pie: {
+          allowPointSelect: true,
+          cursor: 'pointer',
+          dataLabels: {
+            enabled: true,
+            format: '<b>{point.name}: {point.y}</b> ({point.percentage:.1f} %)',
+          }
+        }
+      },
+      series: [{
+        name: 'Brands',
+        colorByPoint: true,
+        data: config['13-2'].data
+      }]
+    });
+
+    var chart132 = new Highcharts.Chart('19-2', {
+      chart: {
+        plotBackgroundColor: null,
+        plotBorderWidth: null,
+        plotShadow: false,
+        type: config['19-2'].type
+      },
+      title: { text: config['19-2'].question },
+      tooltip: { pointFormat: '{point.y} ({point.percentage:.1f}%)</b>'},
+      plotOptions: {
+        pie: {
+          allowPointSelect: true,
+          cursor: 'pointer',
+          dataLabels: {
+            enabled: true,
+            format: '<b>{point.name}: {point.y}</b> ({point.percentage:.1f} %)',
+          }
+        }
+      },
+      series: [{
+        name: 'Brands',
+        colorByPoint: true,
+        data: config['19-2'].data
+      }]
+    });
+
+
+
     Highcharts.setOptions({
       colors: themeColor
     });
@@ -192,7 +247,5 @@ $(function() {
           data: createPieLabel(config['8-4'].label, config['8-4'].data)
       }]
     });
-
-
   });
 });
