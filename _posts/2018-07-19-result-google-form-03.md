@@ -11,19 +11,47 @@ comments: true
 <script src="https://code.highcharts.com/modules/export-data.js"></script>
 <link rel="stylesheet" href="{{ "/assets/css/table.css" | absolute_url }}">
 <link rel="stylesheet" href="{{ "/assets/css/chart.css" | absolute_url }}">
+<link rel="stylesheet" href="{{ "/assets/css/grid.css" | absolute_url }}">
+<link rel="stylesheet" href="{{ "/assets/css/chart-catagory.css" | absolute_url }}">
 
 <h2 style="text-align:center;">Result from Google form</h2>
-<div id="content">
-  <h2>1. Are you a fan of GitHub?</h2>
-  <h3>Project Manager</h3>
-  <div class="chart" id="7-2"></div>
-  <div class="spacer"></div>
-  <h3>Core contributor</h3>
-  <div class="chart" id="13-2"></div>
-  <div class="spacer"></div>
-  <h3>Causal contributor</h3>
-  <div class="chart" id="19-2"></div>
-  <div class="spacer"></div>
+
+<div class="grid-container" id="content">
+  <div class="row">
+    <h2>1. Are you a fan of GitHub?</h2>
+  </div>
+  <div class="row">
+    <div class="col-3">
+      <h3 id="chart-title">Overall</h3>
+    </div>
+    <div class="col-3">
+      <h3 id="chart-title">Project Manager</h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-3">
+      <!-- <div class="chart" id="1-2"></div> -->
+    </div>
+    <div class="col-3">
+      <div class="chart" id="7-2"></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-3">
+      <h3 id="chart-title">Core contributor</h3>
+    </div>
+    <div class="col-3">
+      <h3 id="chart-title">Causal contributor</h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-3">
+      <div class="chart" id="13-2"></div>
+    </div>
+    <div class="col-3">
+      <div class="chart" id="19-2"></div>
+    </div>
+  </div>
   <h2>2. Do you agree that acquisition will trigger even more expansion of Free and Open Source contributors in GitHub?</h2>
   <h3>Project Manager</h3>
   <div class="chart" id="8-2"></div>
@@ -33,4 +61,3 @@ comments: true
   <div class="chart" id="8-4"></div>
 </div>
 <script src="{{ "/assets/js/chart/03.js" | absolute_url }}"></script>
-

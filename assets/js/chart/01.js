@@ -16,7 +16,7 @@ var createSeries= function(label, data) {
 };
 
 var style = {
-    fontSize: '13px',
+    fontSize: '16px',
     fontFamily: 'Helvetica'
 };
 
@@ -143,7 +143,8 @@ $(function() {
           dataLabels: {
             enabled: true,
             format: '<b>{point.name}: {point.y}</b> ({point.percentage:.1f} %)',
-          }
+            style: style
+          },
         }
       },
       series: [{
@@ -236,6 +237,7 @@ $(function() {
               dataLabels: {
                   enabled: true,
                   format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                  style: style
               }
           }
       },

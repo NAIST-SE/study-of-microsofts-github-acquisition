@@ -6,6 +6,14 @@ var redBlueColor = ['#0000FF','#FF0000','#00FF00'];
 
 var agreeLabel = ['No opinion','Strongly disagree','Disagree','Neutral','Agree','Strongly agree'];
 var benefitLabel = ['No opinion','Very detrimental','Detrimental','Neutral','Beneficial','Very beneficial'];
+var yesnoLable = ['Yes', 'No']
+var configPie = {
+    pie: {
+      dataLabels: {
+          distance: -30
+      }
+  }
+}
 
 var createSeries= function(label, data) {
   var series = [];
@@ -18,13 +26,6 @@ var createSeries= function(label, data) {
 var style = {
     fontSize: '16px',
     fontFamily: 'Helvetica'
-};
-
-var pieStyle = {
-  enabled: true,
-  fontSize: '16px',
-  fontFamily: 'Helvetica',
-  format: '<b>{point.name}: {point.y}</b> ({point.percentage:.1f} %)'
 };
 
 var xAxis = {
@@ -56,28 +57,22 @@ var config = {
   '7-2': {
     type: 'pie',
     question: 'Are you a fan of GitHub?',
-    data: [
-      { name: 'Yes', y: 32 }, 
-      { name: 'No',  y: 13 }
-    ]
+    label: yesnoLable,
+    data: [32,13]
   },
   // core contributor
   '13-2': {
     type: 'pie',
     question: 'Are you a fan of GitHub?',
-    data: [
-      { name: 'Yes', y: 28 }, 
-      { name: 'No',  y: 18 }
-    ]
+    label: yesnoLable,
+    data: [28,18]
   },
   // casual contributor
   '19-2': {
     type: 'pie',
     question: 'Are you a fan of GitHub?',
-    data: [
-      { name: 'Yes', y: 80 }, 
-      { name: 'No',  y: 56 }
-    ]
+    label: yesnoLable,
+    data: [80, 56]
   },
   '8-2': {
     type: 'column',
@@ -95,6 +90,28 @@ var config = {
     'One of the projects that have made contributions has already left GitHub (used before but not now)',
     'All projects that I contribute to have never used GitHub (none of the above)'
     ]
+  }
+}
+
+var pieStyle = function(chart) {
+  var distance = -30;
+  console.log(chart)
+  console.log(config[chart].label)
+  for (var i=0; i<config[chart].label.length; i++) {
+    if(config[chart].label[i].length > 10)
+      distance = 30;
+  }
+  return {
+    pie: {
+      allowPointSelect: true,
+      cursor: 'pointer',
+      dataLabels: {
+        enabled: true,
+        format: '<b>{point.name}: {point.y}</b> ({point.percentage:.1f} %)',
+        style: style,
+        distance: distance
+      }
+    }
   }
 }
 
@@ -118,17 +135,7 @@ $(function() {
       },
       title: { text: config['7-2'].question },
       tooltip: { pointFormat: '{point.y} ({point.percentage:.1f}%)</b>'},
-      plotOptions: {
-        pie: {
-          allowPointSelect: true,
-          cursor: 'pointer',
-          dataLabels: {
-            enabled: true,
-            format: '<b>{point.name}: {point.y}</b> ({point.percentage:.1f} %)',
-            style: style
-          }
-        }
-      },
+      plotOptions: pieStyle('7-2'),
       series: [{
         name: 'Brands',
         colorByPoint: true,
@@ -146,17 +153,7 @@ $(function() {
       },
       title: { text: config['13-2'].question },
       tooltip: { pointFormat: '{point.y} ({point.percentage:.1f}%)</b>'},
-      plotOptions: {
-        pie: {
-          allowPointSelect: true,
-          cursor: 'pointer',
-          dataLabels: {
-            enabled: true,
-            format: '<b>{point.name}: {point.y}</b> ({point.percentage:.1f} %)',
-            style: style
-          }
-        }
-      },
+      plotOptions: pieStyle('13-2'),
       series: [{
         name: 'Brands',
         colorByPoint: true,
@@ -164,7 +161,7 @@ $(function() {
       }]
     });
 
-    var chart132 = new Highcharts.Chart('19-2', {
+    var chart192 = new Highcharts.Chart('19-2', {
       chart: {
         plotBackgroundColor: null,
         plotBorderWidth: null,
@@ -173,17 +170,7 @@ $(function() {
       },
       title: { text: config['19-2'].question },
       tooltip: { pointFormat: '{point.y} ({point.percentage:.1f}%)</b>'},
-      plotOptions: {
-        pie: {
-          allowPointSelect: true,
-          cursor: 'pointer',
-          dataLabels: {
-            enabled: true,
-            format: '<b>{point.name}: {point.y}</b> ({point.percentage:.1f} %)',
-            style: style
-          }
-        }
-      },
+      plotOptions: pieStyle('19-2'),
       series: [{
         name: 'Brands',
         colorByPoint: true,
@@ -228,7 +215,7 @@ $(function() {
     Highcharts.setOptions({
       colors: redBlueColor
     });
-    var chart24 = new Highcharts.Chart('8-4', {
+    var chart84 = new Highcharts.Chart('8-4', {
       chart: {
           plotBackgroundColor: null,
           plotBorderWidth: null,
@@ -241,16 +228,7 @@ $(function() {
       tooltip: {
           pointFormat: '{point.y} ({point.percentage:.1f}%)</b>'
       },
-      plotOptions: {
-          pie: {
-              allowPointSelect: true,
-              cursor: 'pointer',
-              dataLabels: {
-                  enabled: true,
-                  format: '<b>{point.name}</b>: {point.percentage:.1f} %',
-              }
-          }
-      },
+      plotOptions: pieStyle('8-4'),
       series: [{
           name: 'Brands',
           colorByPoint: true,

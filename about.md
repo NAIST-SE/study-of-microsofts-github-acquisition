@@ -8,7 +8,7 @@ sitemap:
     changefreq: never
 ---
 
-<link rel="stylesheet" href="{{ "/assets/css/team.css" | absolute_url }}">
+<link rel="stylesheet" href="{{ "/assets/css/grid.css" | absolute_url }}">
 
 <div class="grid-container">
   <div class="row">
