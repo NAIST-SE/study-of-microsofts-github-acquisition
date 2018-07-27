@@ -1,6 +1,10 @@
 // Highcharts.setOptions({
 // 	colors: ['#FF0000','#0000FF']
 // });
+var redBlueColor = ['blue','red','green', 'orange'];
+Highcharts.setOptions({
+	colors: redBlueColor
+});
 
 var chart12 = new Highcharts.chart('1-2', {
 	chart: {
@@ -31,12 +35,11 @@ var chart12 = new Highcharts.chart('1-2', {
 	series: [{
 		name: 'Brands',
 		colorByPoint: true,
-		data: [{
-			name: 'Yes',
-			y: 133
-		}, {
-			name: 'No',
-			y: 75
-		}]
+		data: [
+			{ name: 'Yes',y: 150 }, 
+			{	name: 'No',	y: 89 },
+			{ name: 'Neither', y: 1}, 
+			{ name: 'I use it for some projects, but I am not sure of what a "fan of GitHub" is', y: 1}
+		]
 	}]
 });

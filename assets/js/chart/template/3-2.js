@@ -1,10 +1,10 @@
-var data = [16,22,27,23,22,10];
+var data = [21,25,30,24,24,11];
 var dataSum = 0;
 var series = []
-var agreeLabel = ['No opinion','Almost no effort','Quite less effort','Neutral','Quite much effort','Much effort']
+var effortLabel = ['No opinion','Almost no effort','Less effort','Neutral','Much effort','Strongly much effort']
 for (var i=0;i < data.length;i++) {
 	dataSum += data[i];
-	series[i] = [agreeLabel[i], data[i]];
+	series[i] = [effortLabel[i], data[i]];
 }
 
 var question = 'If the project will be moved away from GitHub to another platform, how much additional effort will be required to get accustomed to the new platform?';
@@ -53,7 +53,7 @@ Highcharts.chart('container', {
 			formatter: function(){
 				var pcnt = (this.y / dataSum) * 100;
 				// return agreeLabel[this.x] + ' '+ Highcharts.numberFormat(pcnt) + '%';
-				return this.y + ' ('+ Highcharts.numberFormat(pcnt) + ')%';
+				return this.y + ' ('+ Highcharts.numberFormat(pcnt,1) + ')%';
 
 			},
 			y: 10, // 10 pixels down from the top

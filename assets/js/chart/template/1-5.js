@@ -1,4 +1,4 @@
-var data = [51,54,37,31,21,15];
+var data = [56,63,45,36,24,17];
 var dataSum = 0;
 var series = []
 var agreeLabel = ['No opinion','Strongly disagree','Disagree','Neutral','Agree','Strongly agree']
@@ -52,7 +52,7 @@ Highcharts.chart('container', {
 			formatter: function(){
 				var pcnt = (this.y / dataSum) * 100;
 				// return agreeLabel[this.x] + ' '+ Highcharts.numberFormat(pcnt) + '%';
-				return this.y + ' ('+ Highcharts.numberFormat(pcnt) + ')%';
+				return this.y + ' ('+ Highcharts.numberFormat(pcnt,1) + ')%';
 
 			},
 			y: 10, // 10 pixels down from the top

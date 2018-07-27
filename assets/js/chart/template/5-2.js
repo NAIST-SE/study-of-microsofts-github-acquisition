@@ -1,10 +1,10 @@
-var data = [8,4,1,0,6,7];
+var data = [9,5,2,0,8,7];
 var dataSum = 0;
 var series = []
-var agreeLabel = ['No opinion','Almost no effort','Quite less effort','Neutral','Quite much effort','Much effort']
+var effortLabel = ['No opinion','Almost no effort','Less effort','Neutral','Much effort','Strongly much effort']
 for (var i=0;i < data.length;i++) {
 	dataSum += data[i];
-	series[i] = [agreeLabel[i], data[i]];
+	series[i] = [effortLabel[i], data[i]];
 }
 let max = 10;
 var question = 'If the distribution/kernel will be moved to GitHub, how much additional effort will be required to get accustomed to the new platform?';

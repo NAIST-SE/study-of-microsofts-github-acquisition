@@ -1,4 +1,4 @@
-var data = [5,0,6,5,8,44];
+var data = [7,0,6,5,8,49];
 var dataSum = 0;
 var series = []
 var agreeLabel = ['No opinion','Strongly disagree','Disagree','Neutral','Agree','Strongly agree']

@@ -1,11 +1,11 @@
-var data = [42,67,46,37,13,6];
+var data = [44,79,54,41,15,8];
 var dataSum = 0;
 var series = []
-var agreeLabel = ['No opinion','Very detrimental','Detrimental','Neutral','Beneficial','Very beneficial']
+var benefitLabel = ['No opinion','Very detrimental','Detrimental','Neutral','Beneficial','Very beneficial'];
 
 for (var i=0;i < data.length;i++) {
 	dataSum += data[i];
-	series[i] = [agreeLabel[i], data[i]];
+	series[i] = [benefitLabel[i], data[i]];
 }
 
 var question = 'Which do you think the acquisition will be beneficial or detrimental to any of the projects that you contribute towards?';
@@ -54,7 +54,7 @@ Highcharts.chart('container', {
 			formatter: function(){
 				var pcnt = (this.y / dataSum) * 100;
 				// return agreeLabel[this.x] + ' '+ Highcharts.numberFormat(pcnt) + '%';
-				return this.y + ' ('+ Highcharts.numberFormat(pcnt) + ')%';
+				return this.y + ' ('+ Highcharts.numberFormat(pcnt,1) + ')%';
 
 			},
 			y: 10, // 10 pixels down from the top

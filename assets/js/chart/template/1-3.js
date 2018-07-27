@@ -1,4 +1,4 @@
-var data13 = [45,15,17,35,55,42];
+var data13 = [49,17,22,42,61,50];
 var agreeLabel = ['No opinion','Strongly disagree','Disagree','Neutral','Agree','Strongly agree']
 
 var question13 = 'GitHub appeals to you as it grants access to over 27 million users in this community.';
@@ -52,7 +52,7 @@ Highcharts.chart('container', {
 			formatter: function(){
 				var pcnt = (this.y / data13Sum) * 100;
 				// return agreeLabel[this.x] + ' '+ Highcharts.numberFormat(pcnt) + '%';
-				return this.y + ' ('+ Highcharts.numberFormat(pcnt) + ')%';
+				return this.y + ' ('+ Highcharts.numberFormat(pcnt,1) + ')%';
 
 			},
 			y: 10, // 10 pixels down from the top

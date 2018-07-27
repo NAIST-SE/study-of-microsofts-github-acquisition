@@ -1,10 +1,10 @@
-var data = [14,25,15,8,6,0];
+var data = [14,27,18,9,7,0];
 var dataSum = 0;
 var series = []
-var agreeLabel = ['No opinion','Almost no effort','Quite less effort','Neutral','Quite much effort','Much effort']
+var effortLabel = ['No opinion','Almost no effort','Less effort','Neutral','Much effort','Strongly much effort']
 for (var i=0;i < data.length;i++) {
 	dataSum += data[i];
-	series[i] = [agreeLabel[i], data[i]];
+	series[i] = [effortLabel[i], data[i]];
 }
 let max = 30;
 var question = 'How much additional effort will be required to get accustomed to the new platform?';

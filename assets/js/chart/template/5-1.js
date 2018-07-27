@@ -1,4 +1,4 @@
-var data = [1,24,3,1,0,0];
+var data = [1,25,3,1,0,1];
 var dataSum = 0;
 var series = []
 var agreeLabel = ['No opinion','Strongly disagree','Disagree','Neutral','Agree','Strongly agree']
@@ -8,7 +8,7 @@ for (var i=0;i < data.length;i++) {
 }
 
 var question = 'Do you think it would be a good idea to move the project to GitHub?';
-var max = 25;
+var max = 30;
 Highcharts.chart('container', {
 	chart: {
 		type: 'column'
