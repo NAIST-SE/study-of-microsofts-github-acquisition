@@ -1,6 +1,7 @@
-/* #table-wrapper {
-  
-} */
+/* table, th, td {
+  border: 1px solid whitesmoke;
+}  */
+
 #table-scroll {
   height:400px;
   overflow:auto;  
