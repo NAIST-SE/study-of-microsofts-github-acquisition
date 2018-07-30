@@ -37,9 +37,7 @@ var chart12 = new Highcharts.chart('1-2', {
 		colorByPoint: true,
 		data: [
 			{ name: 'Yes',y: 150 }, 
-			{	name: 'No',	y: 89 },
-			{ name: 'Neither', y: 1}, 
-			{ name: 'I use it for some projects, but I am not sure of what a "fan of GitHub" is', y: 1}
+			{	name: 'No',	y: 89 }
 		]
 	}]
 });
