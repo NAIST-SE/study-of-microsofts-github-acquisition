@@ -17,12 +17,12 @@ defaults:
     path: ''
     type: posts
   values:
-    permalink: "/blog/:title/"
+    permalink: "/study/:title/"
     layout: post
     author:
 
 # Jekyll
-permalink:          /blog/:title/
+permalink:          /study/:title/
 markdown:           kramdown
 highlighter:        rouge
 kramdown:
@@ -60,7 +60,7 @@ gems:
   - jekyll-paginate
 
 paginate: 6
-paginate_path: "/blog/page:num/"
+paginate_path: "/study/page:num/"
 
 jekyll-mentions:
     base_url: https://github.com
