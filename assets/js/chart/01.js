@@ -1,4 +1,4 @@
-var responses = 236;
+var responses = 241;
 
 var themeColor = ['#2f7ed8', '#0d233a', '#8bbc21', '#910000', '#1aadce',
 '#492970', '#f28f43', '#77a1e5', '#c42525', '#a6c96a'];
@@ -62,8 +62,8 @@ var config = {
     type: 'pie',
     question: 'Are you a fan of GitHub?',
     data: [
-      { name: 'Yes', y: 148 }, 
-      { name: 'No',  y: 88 }
+      { name: 'Yes', y: 150 }, 
+      { name: 'No',  y: 89 }
     ]
   },
   // question2-1
