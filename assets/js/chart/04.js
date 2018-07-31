@@ -318,5 +318,41 @@ $(function() {
       }]
     });
    
+
+    Highcharts.setOptions({
+      colors: redBlueColor
+    });
+
+    var chart24 = new Highcharts.Chart('2-4', {
+      chart: {
+          plotBackgroundColor: null,
+          plotBorderWidth: null,
+          plotShadow: false,
+          type: config['2-4'].type
+      },
+      title: {
+          text: config['2-4'].question
+      },
+      tooltip: {
+          pointFormat: '{point.y} ({point.percentage:.1f}%)</b>'
+      },
+      plotOptions: {
+          pie: {
+              allowPointSelect: true,
+              cursor: 'pointer',
+              dataLabels: {
+                  enabled: true,
+                  format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                  style: style
+              }
+          }
+      },
+      series: [{
+          name: 'Brands',
+          colorByPoint: true,
+          data: createPieLabel(config['2-4'].label, config['2-4'].data)
+      }]
+    });
+
   });
 });

@@ -3,7 +3,7 @@ layout: post
 title:  "Result from Google form (Part 3): Perspective of Microsoft Acquisition of GitHub"
 date:   2018-07-30
 excerpt: "What do you think of GitHub?"
-image: "/images/pic02.jpg"
+image: "/images/chart/2-1.png"
 comments: true
 ---
 

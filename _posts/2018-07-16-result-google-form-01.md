@@ -3,7 +3,7 @@ layout: post
 title:  "Result from Google form (Part 1): Demographic"
 date:   2018-07-17
 excerpt: "Who are our participants?"
-image: "/images/pic02.jpg"
+image: "/images/chart/1-1.png"
 comments: true
 ---
 

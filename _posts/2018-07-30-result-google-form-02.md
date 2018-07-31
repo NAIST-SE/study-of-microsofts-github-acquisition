@@ -3,7 +3,7 @@ layout: post
 title:  "Result from Google form (Part 2): Developers Perspective of GitHub"
 date:   2018-07-30
 excerpt: "What do you think of GitHub?"
-image: "/images/pic02.jpg"
+image: "/images/chart/1-2.png"
 comments: true
 ---
 
