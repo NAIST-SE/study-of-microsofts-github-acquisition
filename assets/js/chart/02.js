@@ -36,17 +36,6 @@ var yAxis = function(max=undefined) {
   }
 }
 
-var dataLabels = {
-  enabled: true,
-  color: '#FFFFFF',
-  formatter: function(){
-    var pcnt = (this.y / responses) * 100;
-    return this.y + ' ('+ Highcharts.numberFormat(pcnt,1) + ')%';
-  },
-  y: 10, // 10 pixels down from the top
-  style: style
-}
-
 var createPieLabel = function(label, data) {
   series = []
   for (let i=0; i<data.length; i++) {
@@ -56,87 +45,41 @@ var createPieLabel = function(label, data) {
 }
 
 var config = {
-  // question 1-1
-  '1-2': {
-    type: 'pie',
-    question: 'Are you a fan of GitHub?',
-    data: [
-      { name: 'Yes', y: 150 }, 
-      { name: 'No',  y: 89 }
-    ]
-  },
-  '1-3': {
+  // question2-1
+  '2-1': {
     type: 'column',
-    data: [49,17,22,42,61,50],
-    question: 'GitHub appeals to you as it grants access to over 27 million users in this community.',
-    label: agreeLabel,
-    max: 80
+    data: [44,79,54,41,15,8],
+    question: 'Which do you think the acquisition will be beneficial or detrimental to any of the projects that you contribute towards?',
+    max: 80,
+    label: benefitLabel
   },
-  '1-4': {
+  '2-2': {
     type: 'column',
-    data: [16,13,23,49,82,58],
-    question: 'GitHub has a set of useful functions (e.g., GitHub Page, Project Management) that every developer will benefit.',
+    data: [24,119,58,21,5,12],
+    question: 'Do you agree that the acquisition will trigger even more expansion of Free and Open Source contributors in GitHub?',
     label: agreeLabel,
+    max: 150
   },
-  '1-5': {
+  '2-3': {
     type: 'column',
-    data: [56,63,45,36,24,17],
-    question: 'GitHub does not implement my preferred functions or is missing other functions that I need as a developer.',
+    data: [32,85,48,30,28,18],
+    question: 'Do you agree that the acquisition will bring improvements in the reliability and services of GitHub platform?',
     label: agreeLabel,
+    max: 100
   },
-  '1-6': {
-    type: 'column',
-    data: [36,53,53,48,33,18],
-    question: 'The GitHub platform is superior compared to similar platforms.',
-    label: agreeLabel,
-  },
-
 }
 
 $(function() {
   $(document).ready(function() {
-
-    Highcharts.setOptions({
-      colors: redBlueColor
-    });
-
-    var chart12 = new Highcharts.Chart('1-2', {
-      chart: {
-        plotBackgroundColor: null,
-        plotBorderWidth: null,
-        plotShadow: false,
-        type: config['1-2'].type
-      },
-      title: { text: config['1-2'].question },
-      tooltip: { pointFormat: '{point.y} ({point.percentage:.1f}%)</b>'},
-      plotOptions: {
-        pie: {
-          allowPointSelect: true,
-          cursor: 'pointer',
-          dataLabels: {
-            enabled: true,
-            format: '<b>{point.name}: {point.y}</b> ({point.percentage:.1f} %)',
-            distance: -70,
-            style: style
-          },
-        }
-      },
-      series: [{
-        name: 'Brands',
-        colorByPoint: true,
-        data: config['1-2'].data
-      }]
-    });
-
     Highcharts.setOptions({
       colors: themeColor
     });
 
-    var chart13 = new Highcharts.Chart('1-3', {
-      chart: { type: config['1-3'].type },
-      title: { text: config['1-3'].question },
+    var chart21 = new Highcharts.Chart('2-1', {
+      chart: { type: config['2-1'].type },
+      title: { text: config['2-1'].question },
       xAxis: xAxis,
-      yAxis: yAxis(config['1-3'].max),
+      yAxis: yAxis(config['2-1'].max),
       legend: {
         enabled: false
       },
@@ -145,16 +88,26 @@ $(function() {
       },
       series: [{
         name: 'Population',
-        data: createSeries(config['1-3'].label, config['1-3'].data),
-        dataLabels: dataLabels
+        data: createSeries(config['2-1'].label, config['2-1'].data),
+        dataLabels: {
+          enabled: true,
+          color: '#FFFFFF',
+          formatter: function(){
+            var pcnt = (this.y / responses) * 100;
+            return this.y + ' ('+ Highcharts.numberFormat(pcnt,1) + ')%';
+    
+          },
+          y: 10, // 10 pixels down from the top
+          style: style
+        }
       }]
     });
 
-    var chart14 = new Highcharts.Chart('1-4', {
-      chart: { type: config['1-4'].type },
-      title: { text: config['1-4'].question },
+    var chart22 = new Highcharts.Chart('2-2', {
+      chart: { type: config['2-2'].type },
+      title: { text: config['2-2'].question },
       xAxis: xAxis,
-      yAxis: yAxis(config['1-4'].max),
+      yAxis: yAxis(config['2-2'].max),
       legend: {
         enabled: false
       },
@@ -163,16 +116,25 @@ $(function() {
       },
       series: [{
         name: 'Population',
-        data: createSeries(config['1-4'].label, config['1-4'].data),
-        dataLabels: dataLabels
+        data: createSeries(config['2-2'].label, config['2-2'].data),
+        dataLabels: {
+          enabled: true,
+          color: '#FFFFFF',
+          formatter: function(){
+            var pcnt = (this.y / responses) * 100;
+            return this.y + ' ('+ Highcharts.numberFormat(pcnt,1) + ')%';
+    
+          },
+          y: 10, // 10 pixels down from the top
+          style: style
+        }
       }]
     });
-
-    var chart15 = new Highcharts.Chart('1-5', {
-      chart: { type: config['1-5'].type },
-      title: { text: config['1-5'].question },
+    var chart23 = new Highcharts.Chart('2-3', {
+      chart: { type: config['2-3'].type },
+      title: { text: config['2-3'].question },
       xAxis: xAxis,
-      yAxis: yAxis(config['1-5'].max),
+      yAxis: yAxis(config['2-3'].max),
       legend: {
         enabled: false
       },
@@ -181,26 +143,18 @@ $(function() {
       },
       series: [{
         name: 'Population',
-        data: createSeries(config['1-5'].label, config['1-5'].data),
-        dataLabels: dataLabels
-      }]
-    });
-
-    var chart16 = new Highcharts.Chart('1-6', {
-      chart: { type: config['1-6'].type },
-      title: { text: config['1-6'].question },
-      xAxis: xAxis,
-      yAxis: yAxis(config['1-6'].max),
-      legend: {
-        enabled: false
-      },
-      tooltip: {
-        pointFormat: '{point.y}</b>'
-      },
-      series: [{
-        name: 'Population',
-        data: createSeries(config['1-6'].label, config['1-6'].data),
-        dataLabels: dataLabels
+        data: createSeries(config['2-3'].label, config['2-3'].data),
+        dataLabels: {
+          enabled: true,
+          color: '#FFFFFF',
+          formatter: function(){
+            var pcnt = (this.y / responses) * 100;
+            return this.y + ' ('+ Highcharts.numberFormat(pcnt,1) + ')%';
+    
+          },
+          y: 10, // 10 pixels down from the top
+          style: style
+        }
       }]
     });
 

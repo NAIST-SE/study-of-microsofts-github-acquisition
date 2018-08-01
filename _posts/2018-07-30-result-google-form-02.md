@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Result from Google form (Part 2): Developers Perspective of GitHub"
+title:  "Survey results: Perspective of Microsoft Acquisition of GitHub"
 date:   2018-07-30
-excerpt: "What do you think of GitHub?"
+excerpt: "For these questions, we would like to know how developers think about the Microsoft acquisition of GitHub. Thus, we asked them about their knowledge about GitHub."
 image: "/images/chart/1-2.png"
 comments: true
 ---
@@ -13,23 +13,32 @@ comments: true
 <script src="https://code.highcharts.com/modules/export-data.js"></script>
 <link rel="stylesheet" href="{{ "/assets/css/table.css" | absolute_url }}">
 <link rel="stylesheet" href="{{ "/assets/css/chart.css" | absolute_url }}">
+<link rel="stylesheet" href="{{ "/assets/css/grid.css" | absolute_url }}">
 <script src="{{ "/assets/js/chart/02.js" | absolute_url }}"></script>
 
 <div id="content">   
-  <p>	Most of our participants have a positive opinion to GitHub. According to these graphed most of the participants are fans of GitHub, think GitHub appeal to them as it grants access to over 27 million users in this community, GitHub has a set of useful functions that every developer will benefit, GitHub implement their preferred functions that they need as developers and GitHub platform is superior compared to similar platforms.</p>
-  <div class="chart" id="1-2"></div>
-  <p id="chart-des"><i>62.2% of participants are fans of GitHub.</i></p>
+  <p>&emsp;&emsp;The results of the survey show that most of the participants have a negative perspective of Microsoft acquisition GitHub. It means developers fail to see the benefit of Microsoft. In addition, participants think the acquisition will be detrimental to any projects that they contribute toward and participants do not agree to the acquisition will trigger even more expansion of Free and open Source contributors in GitHub and this acquisition will bring improvements in the reliability and services of GitHub platform</p>
+  <p>&emsp;&emsp;In detail, figure 2-1, 55.2% of 241 participants think the acquisition will be detrimental to any projects that they contribute toward. According to figure 2-2, 74.3% of 241 participants do not agree to the acquisition will trigger even more expansion of Free and Open Source contributors in GitHub. Figure 2-3  shows 55.2% of participants do not agree with this acquisition will bring improvements in the reliability and services of GitHub platform.</p>
   <div class="spacer"></div>
-  <div class="chart" id="1-3"></div>
-  <p id="chart-des"><i>111 participants agree with GitHub appeals to them as it grants access to over 27 million users in this community.  49 participants do not have opinion with this question.</i></p>  
-  <div class="spacer"></div>
-  <div class="chart" id="1-4"></div>
-  <p id="chart-des"><i>135 Participants agree with GitHub has a set of useful functions 
-(e.g., GitHub Page, Project Management) that every developer will benefit. </i></p>  
-  <div class="spacer"></div>
-  <div class="chart" id="1-5"></div>
-  <p id="chart-des"><i>108 participants think GitHub implement their preferred functions or is missing other functions that they need as developers. 56 participants do not have opinion for this question.</i></p>  
-  <div class="spacer"></div>
-  <div class="chart" id="1-6"></div>
-  <p id="chart-des"><i>106 participants think the GitHub platform is superior compared to similar platforms.</i></p>
+  <div class="grid-container">
+    <div class="row">
+      <div class="col-6">
+        <div class="chart" id="2-1"></div>
+        <p id="chart-des"><i>Figure 2-1</i></p>
+      </div>
+      <div class="col-6">
+        <div class="chart" id="2-2"></div>
+        <p id="chart-des"><i>Figure 2-2</i></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-3" style="min-width:300px;"></div> 
+      <div class="col-6">
+        <div class="chart" id="2-3"></div>
+        <p id="chart-des"><i>Figure 2-3</i></p>
+      </div>
+      <div class="col-3" style="min-width:300px;"></div>
+    </div>
+  </div>
 </div>
+<script src="{{ "/assets/js/chart/02.js" | absolute_url }}"></script>
