@@ -343,7 +343,11 @@ $(function() {
               dataLabels: {
                   enabled: true,
                   format: '<b>{point.name}</b>: {point.percentage:.1f} %',
-                  style: style
+                  style:  {
+                    fontSize: '16px',
+                    fontFamily: 'Helvetica'
+                },
+                distance: 0
               }
           }
       },

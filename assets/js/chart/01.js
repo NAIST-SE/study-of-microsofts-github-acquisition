@@ -143,6 +143,7 @@ $(function() {
           dataLabels: {
             enabled: true,
             format: '<b>{point.name}: {point.y}</b> ({point.percentage:.1f} %)',
+            distance: -30,
             style: style
           },
         }
