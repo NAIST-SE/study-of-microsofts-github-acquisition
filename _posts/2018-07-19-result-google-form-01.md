@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Survey results: Demographic & Perspective of GitHub"
+title:  "Survey Results: Demographic & Perspective of GitHub"
 date:   2018-07-19
 excerpt: "For these questions, we would like to know who are our participants as well as how they think about GitHub. Therefore, we asked them about their roles and main activities and also if they were fans of GitHub and its current functions."
 image: "/images/chart/1-1.png"

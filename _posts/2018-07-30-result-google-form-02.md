@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Survey results: Perspective of Microsoft Acquisition of GitHub"
+title:  "Survey Results: Perspective of Microsoft Acquisition of GitHub"
 date:   2018-07-30
 excerpt: "For these questions, we would like to know how developers think about the Microsoft acquisition of GitHub. Thus, we asked them about their knowledge about GitHub."
 image: "/images/chart/1-2.png"

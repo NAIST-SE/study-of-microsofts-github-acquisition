@@ -6,74 +6,112 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-    {% include head.html %}
 
-	</head>
-	<body class="is-loading">
+<head>
+	{% include head.html %}
+	<link rel="stylesheet" href="{{ "/assets/css/grid.css" | absolute_url }}">
+</head>
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+<body class="is-loading">
 
-				<!-- Header -->
-				<header id="header">
-					<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
+	<!-- Wrapper -->
+	<div id="wrapper" class="fade-in">
+
+		<!-- Header -->
+		<header id="header">
+			<a href="{{ " / " | absolute_url }}" class="logo">{{site.title}}</a>
+		</header>
+
+
+		<!-- Nav -->
+		<nav id="nav">
+
+			{% include nav.html %}
+
+			<ul class="icons">
+				<li>
+					<a href="https://github.com/{{site.github}}" class="icon fa-github" rel="nofollow">
+						<span class="label">GitHub</span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+
+		<!-- Main -->
+		<div id="main">
+
+			<article class="post featured">
+				<header class="major">
+					<h2>
+						<a href="#">Study</a>
+					</h2>
+					<p>This blog contain every thing you should know about this project.</p>
 				</header>
 
-
-				<!-- Nav -->
-					<nav id="nav">
-
-            {% include nav.html %}
-
-						<ul class="icons">
-              {% comment %} <li><a href="https://twitter.com/{{site.twitter}}" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
-              <li><a href="https://facebook.com/{{site.facebook}}" class="icon fa-facebook" rel="nofollow"><span class="label">Facebook</span></a></li>
-              <li><a href="https://instagram.com/{{site.instagram}}" class="icon fa-instagram" rel="nofollow"><span class="label">Instagram</span></a></li> {% endcomment %}
-              <li><a href="https://github.com/{{site.github}}" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
-
-				<!-- Main -->
-				<div id="main">
-
-          <article class="post featured">
-            <header class="major">
-              <h2><a href="#">Study</a></h2>
-              <p>This blog contain every thing you should know about this project.</p>
-						</header>
-						{% for post in site.posts reversed %}
-						 <p><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></p>
-						{% endfor %}
-          </article>
-					<!-- Post -->
-					<section class="posts">
-						{% for post in site.posts %}
-							<article>
-								<header>
-									<span class="date">{{ post.date | date_to_string }}</span>
-									<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
-								</header>
-								<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
-								<p>{{ post.excerpt }}</p>
-								<ul class="actions">
-									<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
-								</ul>
-							</article>
-						{% endfor %}
-
-					</section>
-
+				<div class="grid-container">
+					<div class="row">
+						<div class="col-6">
+							<h2> Methodology </h2>
+							<ul>
+								<li><a href="{{ "/study/how-to-send-survey/" | absolute_url }}">How to send this survey?</a></li>
+								<li><a href="{{ "/study/how-to-make-survey/" | absolute_url }}">How to make this survey?</a></li>
+							</ul> 
+						</div>
+						<div class="col-6">
+							<h2>Results</h2>
+							<ul>
+								<li><a href="{{ "/study/result-google-form-01/" | absolute_url }}">Survey Results: Demographic & Perspective of GitHub</a></li>
+								<li><a href="{{ "/study/result-google-form-02/" | absolute_url }}">Survey Results: Perspective of Microsoft Acquisition of GitHub</a></li>
+								<li><a href="{{ "/study/result-google-form-02/" | absolute_url }}">Survey Results: Effect of Acquisition</a></li>
+							</ul> 
+						</div>
 					</div>
+				</div>
 
-				<!-- Footer -->
-        {% include foot.html %}
+				{% comment %} <link rel="stylesheet" href="{{ "/assets/css/grid.css" | absolute_url }}" {% endcomment %}
+				{% comment %} {% for post in site.posts reversed %}
+				<p>
+					<a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
+				</p>
+				{% endfor %} {% endcomment %}
+			</article>
 
-			</div>
 
-			<!-- Scripts -->
-			{% include scripts-main.html %}
-			{% include tracking.html %}
 
-	</body>
+			<!-- Post -->
+			<section class="posts">
+				{% for post in site.posts %}
+				<article>
+					<header>
+						<span class="date">{{ post.date | date_to_string }}</span>
+						<h2>
+							<a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
+						</h2>
+					</header>
+					<a href="{{ post.url | absolute_url }}" class="image fit">
+						<img src="{{ post.image | absolute_url }}" alt="" />
+					</a>
+					<p>{{ post.excerpt }}</p>
+					<ul class="actions">
+						<li>
+							<a href="{{ post.url | absolute_url }}" class="button">Full Story</a>
+						</li>
+					</ul>
+				</article>
+				{% endfor %}
+
+			</section>
+
+		</div>
+
+		<!-- Footer -->
+		{% include foot.html %}
+
+	</div>
+
+	<!-- Scripts -->
+	{% include scripts-main.html %} {% include tracking.html %}
+
+</body>
+
 </html>
