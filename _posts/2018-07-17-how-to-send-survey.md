@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to send this survey?"
-date:   2018-07-01
+date:   2018-07-18
 excerpt: "If making survey is heart, sending survey is heart too."
 image: "/images/survey_cover.png"
 comments: true

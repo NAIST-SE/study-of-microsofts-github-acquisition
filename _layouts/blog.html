@@ -42,7 +42,7 @@
               <h2><a href="#">Study</a></h2>
               <p>This blog contain every thing you should know about this project.</p>
 						</header>
-						{% for post in site.posts reversed%}
+						{% for post in site.posts reversed %}
 						 <p><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></p>
 						{% endfor %}
           </article>
