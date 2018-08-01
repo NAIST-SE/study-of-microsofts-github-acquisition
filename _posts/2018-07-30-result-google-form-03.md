@@ -90,5 +90,5 @@ comments: true
       <div class="col-3" style="min-width:300px;"></div>
     </div>
   </div>
-  <p id="chart-des"><i>Participant group (c),participants whose project do not use GitHub</i></p>  
+  <p id="chart-des"><i>Participant group (c), participants whose project do not use GitHub</i></p>  
 </div>
