@@ -44,9 +44,14 @@ comments: true
       </div>
     </div>
     <div class="row">
-      <div class="chart" id="1-6"></div>
-      <p id="chart-des"><i>Figure 1-6</i></p>
-    </div>
+      <div class="col-3" style="min-width:300px;"></div> 
+      <!-- <div class="col-3"></div> -->
+      <div class="col-6">
+        <div class="chart" id="1-6"></div>
+        <p id="chart-des"><i>Figure 1-6</i></p>
+      </div>
+      <!-- <div class="col-3"></div> -->
+      <div class="col-3" style="min-width:300px;"></div>
   </div>
-  <script src="{{ "/assets/js/chart/01.js" | absolute_url }}"></script>
 </div>
+<script src="{{ "/assets/js/chart/01.js" | absolute_url }}"></script>
