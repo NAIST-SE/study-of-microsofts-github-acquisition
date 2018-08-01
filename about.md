@@ -12,10 +12,10 @@ sitemap:
 
 <div class="grid-container">
   <div class="row">
-    <div class="col-2">
+    <div class="col-4">
       <img src="{{ "/images/avatar.jpg" | absolute_url }}" id="avatar">
     </div>
-    <div class="col-4">
+    <div class="col-8">
       <h2>XXXXXX XXXXXXXX</h2>
       <ul>  
         <li>asdfghjkl;</li>
@@ -25,14 +25,14 @@ sitemap:
   </div>
   <div class="row" style="height: 50px;"></div>
   <div class="row">
-    <div class="col-4">
+    <div class="col-8">
       <h2>XXXXXX XXXXXXXX</h2>
       <ul>  
         <li>asdfghjkl;</li>
         <li>asdfghjkl;</li>
       </ul>
     </div>
-    <div class="col-2">
+    <div class="col-4">
       <img src="{{ "/images/avatar.jpg" | absolute_url }}" id="avatar" align="right">
     </div>
   </div> 

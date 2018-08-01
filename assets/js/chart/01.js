@@ -36,6 +36,17 @@ var yAxis = function(max=undefined) {
   }
 }
 
+var dataLabels = {
+  enabled: true,
+  color: '#FFFFFF',
+  formatter: function(){
+    var pcnt = (this.y / responses) * 100;
+    return this.y + ' ('+ Highcharts.numberFormat(pcnt,1) + ')%';
+  },
+  y: 10, // 10 pixels down from the top
+  style: style
+}
+
 var createPieLabel = function(label, data) {
   series = []
   for (let i=0; i<data.length; i++) {
@@ -65,6 +76,31 @@ var config = {
       { name: 'Yes', y: 150 }, 
       { name: 'No',  y: 89 }
     ]
+  },
+  '1-3': {
+    type: 'column',
+    data: [49,17,22,42,61,50],
+    question: 'GitHub appeals to you as it grants access to over 27 million users in this community.',
+    label: agreeLabel,
+    max: 80
+  },
+  '1-4': {
+    type: 'column',
+    data: [16,13,23,49,82,58],
+    question: 'GitHub has a set of useful functions (e.g., GitHub Page, Project Management) that every developer will benefit.',
+    label: agreeLabel,
+  },
+  '1-5': {
+    type: 'column',
+    data: [56,63,45,36,24,17],
+    question: 'GitHub does not implement my preferred functions or is missing other functions that I need as a developer.',
+    label: agreeLabel,
+  },
+  '1-6': {
+    type: 'column',
+    data: [36,53,53,48,33,18],
+    question: 'The GitHub platform is superior compared to similar platforms.',
+    label: agreeLabel,
   },
   // question2-1
   '2-1': {
@@ -143,7 +179,7 @@ $(function() {
           dataLabels: {
             enabled: true,
             format: '<b>{point.name}: {point.y}</b> ({point.percentage:.1f} %)',
-            distance: -30,
+            distance: -70,
             style: style
           },
         }
@@ -154,6 +190,83 @@ $(function() {
         data: config['1-2'].data
       }]
     });
+
+    Highcharts.setOptions({
+      colors: themeColor
+    });
+
+    var chart13 = new Highcharts.Chart('1-3', {
+      chart: { type: config['1-3'].type },
+      title: { text: config['1-3'].question },
+      xAxis: xAxis,
+      yAxis: yAxis(config['1-3'].max),
+      legend: {
+        enabled: false
+      },
+      tooltip: {
+        pointFormat: '{point.y}</b>'
+      },
+      series: [{
+        name: 'Population',
+        data: createSeries(config['1-3'].label, config['1-3'].data),
+        dataLabels: dataLabels
+      }]
+    });
+
+    var chart14 = new Highcharts.Chart('1-4', {
+      chart: { type: config['1-4'].type },
+      title: { text: config['1-4'].question },
+      xAxis: xAxis,
+      yAxis: yAxis(config['1-4'].max),
+      legend: {
+        enabled: false
+      },
+      tooltip: {
+        pointFormat: '{point.y}</b>'
+      },
+      series: [{
+        name: 'Population',
+        data: createSeries(config['1-4'].label, config['1-4'].data),
+        dataLabels: dataLabels
+      }]
+    });
+
+    var chart15 = new Highcharts.Chart('1-5', {
+      chart: { type: config['1-5'].type },
+      title: { text: config['1-5'].question },
+      xAxis: xAxis,
+      yAxis: yAxis(config['1-5'].max),
+      legend: {
+        enabled: false
+      },
+      tooltip: {
+        pointFormat: '{point.y}</b>'
+      },
+      series: [{
+        name: 'Population',
+        data: createSeries(config['1-5'].label, config['1-5'].data),
+        dataLabels: dataLabels
+      }]
+    });
+
+    var chart16 = new Highcharts.Chart('1-6', {
+      chart: { type: config['1-6'].type },
+      title: { text: config['1-6'].question },
+      xAxis: xAxis,
+      yAxis: yAxis(config['1-6'].max),
+      legend: {
+        enabled: false
+      },
+      tooltip: {
+        pointFormat: '{point.y}</b>'
+      },
+      series: [{
+        name: 'Population',
+        data: createSeries(config['1-6'].label, config['1-6'].data),
+        dataLabels: dataLabels
+      }]
+    });
+
 
     Highcharts.setOptions({
       colors: themeColor

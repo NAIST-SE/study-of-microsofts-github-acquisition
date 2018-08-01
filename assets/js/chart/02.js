@@ -95,9 +95,6 @@ var config = {
 
 $(function() {
   $(document).ready(function() {
-    Highcharts.setOptions({
-      colors: themeColor
-    });
 
     Highcharts.setOptions({
       colors: redBlueColor

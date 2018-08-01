@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Result from Google form (Part 1): Demographic"
+title:  "Survey results: Demographic & Perspective of GitHub"
 date:   2018-07-19
-excerpt: "Who are our participants?"
+excerpt: "For these questions, we would like to know who are our participants as well as how they think about GitHub. Therefore, we asked them about their roles and main activities and also if they were fans of GitHub and its current functions."
 image: "/images/chart/1-1.png"
 comments: true
 ---
@@ -13,9 +13,40 @@ comments: true
 <script src="https://code.highcharts.com/modules/export-data.js"></script>
 <link rel="stylesheet" href="{{ "/assets/css/table.css" | absolute_url }}">
 <link rel="stylesheet" href="{{ "/assets/css/chart.css" | absolute_url }}">
+<link rel="stylesheet" href="{{ "/assets/css/grid.css" | absolute_url }}">
 
 <div id="content">   
-  <p>	Most of our participant is Casual contributor. According to this graph, there are 149 casual contributors in this survey.</p>
+  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Results of the survey indicate that most of our participants are Casual contributors to the Linux distributions and BSD projects. Also, we find that most participants have a positive opinion to GitHub. Participants also feel that think GitHub appeals to them as it grants access to over 27 million users in this community and GitHub provides a set of useful functions that every developer will benefit.</p>
+  <br>
+  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In detail, the figure 1-1 shows that 61.8% of 241 participants are the casual contributors, which is the majority of the participants. According to figure 1-2, 62.2% of participants are fans of GitHub. From figure 1-3, 61% of participants agree with GitHub appeals to them as it grants access to over 27 million users in this community, but 20.3% of participants do not have opinion with this question. As shown in figure 1-4, 58.1% of participants agree with GitHub has a set of useful functions (e.g., GitHub Page, Project Management) that every developer will benefit. Figure 1-5 shows 44.8% of participants think GitHub implement their preferred functions or is missing other functions that they need as developers. Figure 1-6 shows 14.9% of participants do not show their opinion on this question. 44% of participants do not think the GitHub platform is superior compared to similar platforms.</p>
   <div class="chart" id="1-1"></div>
+  <p id="chart-des"><i>Figure 1-1</i></p>
+  <div class="spacer"></div>
+  <div class="grid-container">
+    <div class="row">
+      <div class="col-6">
+        <div class="chart" id="1-2"></div>
+        <p id="chart-des"><i>Figure 1-2</i></p>
+      </div>
+      <div class="col-6">
+        <div class="chart" id="1-3"></div>
+        <p id="chart-des"><i>Figure 1-3</i></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <div class="chart" id="1-4"></div>
+        <p id="chart-des"><i>Figure 1-4</i></p>
+      </div>
+      <div class="col-6">
+        <div class="chart" id="1-5"></div>
+        <p id="chart-des"><i>Figure 1-5</i></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="chart" id="1-6"></div>
+      <p id="chart-des"><i>Figure 1-6</i></p>
+    </div>
+  </div>
   <script src="{{ "/assets/js/chart/01.js" | absolute_url }}"></script>
 </div>
