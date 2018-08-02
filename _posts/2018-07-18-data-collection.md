@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "How to send this survey?"
+title:  "Data collection"
 date:   2018-07-18
-excerpt: "If making survey is heart, sending survey is heart too."
+excerpt: "Survey cannot success if it is not sent. We select the suitable place to distribute the survey to the target, contributors in Linux and Berkeley software distribution. There are more than one way how to send, but how we select."
 image: "/images/survey_cover.png"
 comments: true
 ---
