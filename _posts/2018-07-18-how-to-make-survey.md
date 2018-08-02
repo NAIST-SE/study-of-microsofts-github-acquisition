@@ -57,6 +57,6 @@ I want participants to answer only one choice, so I use basic multiple choice. T
 
 ## 5. Design Section
   Good spliting section will make good participant experience.
-### Participants should not scroll while apply a survey.
-### but don't split too much section
-### Hide page number or survey progress if you use logic flow.
+- Participants should not scroll while apply a survey.
+-  but don't split too much section
+- Hide page number or survey progress if you use logic flow.
