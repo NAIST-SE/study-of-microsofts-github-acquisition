@@ -10,7 +10,7 @@ sitemap:
 <link rel="stylesheet" href="{{ "/assets/css/table.css" | absolute_url }}">
 
 <h1>Acknowledgement</h1>
-<p>First, I would like to express my sincere gratitude to every projects that let us register to your member and publish this survey. Finally, I must express my very profound gratitude to all of our participant for interesting my work and applying this survey.</p>
+<p>First, I\we would like to express my sincere gratitude to every projects that let us register to your member and publish this survey. Finally, we must express my very profound gratitude to all of our participant for interesting my work and applying this survey.</p>
 <br>
 <div id="content">
   <h2>Forums</h2>
