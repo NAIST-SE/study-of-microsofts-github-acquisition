@@ -7,6 +7,9 @@ sitemap:
     lastmod: 2018-07-17
     changefreq: never
 ---
+- [Software Engineering Laboratory, Nara Institute of Science and Technology, Japan](http://isw3.naist.jp/Contents/Research/cs-05-en.html)
+- [Massive Information and Knowledge Engineering Laboratory (MIKELab), Kasetsart University](http://mike.cpe.ku.ac.th)
+
 
 <link rel="stylesheet" href="{{ "/assets/css/grid.css" | absolute_url }}">
 <div class="grid-container">
