@@ -61,11 +61,11 @@ var config = {
     type: 'bar',
     question: 'Which of the roles best describe your main activities within the Linux (distributions or kernel) or BSD?',
     data: [
-      ['Project Manager/Project Leader', 45],
+      ['Project Manager/Project Leader', 46],
       ['Core contributor', 63],
-      ['Casual contributor', 144],
+      ['Casual contributor', 149],
       ['User', 6],
-      ['Others', 11]
+      ['Others', 4]
     ]
   },
   // question1-2
