@@ -1,41 +1,16 @@
 ---
 layout: page
-title: Imapact of Microsoft Acquisition to GitHub
+title: Developer Perception to Microsoft’s Acquisition of GitHub
 description: This project can not be done if without these people.
 sitemap:
     priority: 0.7
     lastmod: 2018-07-17
     changefreq: never
 ---
-- [Software Engineering Laboratory, Nara Institute of Science and Technology, Japan](http://isw3.naist.jp/Contents/Research/cs-05-en.html)
-- [Massive Information and Knowledge Engineering Laboratory (MIKELab), Kasetsart University](http://mike.cpe.ku.ac.th)
-
-
-<link rel="stylesheet" href="{{ "/assets/css/grid.css" | absolute_url }}">
-<div class="grid-container">
-  <div class="row">
-    <div class="col-4">
-      <img src="{{ "/images/avatar.jpg" | absolute_url }}" id="avatar">
-    </div>
-    <div class="col-8">
-      <h2>XXXXXX XXXXXXXX</h2>
-      <ul>  
-        <li>asdfghjkl;</li>
-        <li>asdfghjkl;</li>
-      </ul>
-    </div>
-  </div>
-  <div class="row" style="height: 50px;"></div>
-  <div class="row">
-    <div class="col-8">
-      <h2>XXXXXX XXXXXXXX</h2>
-      <ul>  
-        <li>asdfghjkl;</li>
-        <li>asdfghjkl;</li>
-      </ul>
-    </div>
-    <div class="col-4">
-      <img src="{{ "/images/avatar.jpg" | absolute_url }}" id="avatar" align="right">
-    </div>
-  </div> 
-</div>
+<h1>Team</h1>
+- Natnaree Asavaseri, Research internship student (NAIST, Japan), Bachelor degree student (Kasetsart University, Thailand)
+- Hideaki Hata, Assistant professor ([NAIST, Japan](http://isw3.naist.jp/Contents/Research/cs-05-en.html))
+- Raula Gaikovina Kula, Assistant professor ([NAIST, Japan](http://isw3.naist.jp/Contents/Research/cs-05-en.html))
+- Kenichi Matsumoto, Professor ([NAIST, Japan](http://isw3.naist.jp/Contents/Research/cs-05-en.html))
+- [Arnon Rungsawang](http://mike.cpe.ku.ac.th), Associate professor (Kasetsart University, Thailand)
+- Pattara Leelaprute, Assistant professor (Kasetsart University, Thailand)
