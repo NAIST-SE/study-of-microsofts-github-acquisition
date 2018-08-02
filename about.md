@@ -8,7 +8,7 @@ sitemap:
     changefreq: never
 ---
 <h1>Team</h1>
-- Natnaree Asavaseri, Research internship student (NAIST, Japan), Bachelor degree student (Kasetsart University, Thailand)
+- Natnaree Asavaseri, Research internship student ([NAIST, Japan](http://isw3.naist.jp/Contents/Research/cs-05-en.html))
 - Hideaki Hata, Assistant professor ([NAIST, Japan](http://isw3.naist.jp/Contents/Research/cs-05-en.html))
 - Raula Gaikovina Kula, Assistant professor ([NAIST, Japan](http://isw3.naist.jp/Contents/Research/cs-05-en.html))
 - Shade Ruangwan, Doctoral student ([NAIST, Japan](http://isw3.naist.jp/Contents/Research/cs-05-en.html))
