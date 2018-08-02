@@ -9,7 +9,6 @@ sitemap:
 ---
 
 <link rel="stylesheet" href="{{ "/assets/css/grid.css" | absolute_url }}">
-
 <div class="grid-container">
   <div class="row">
     <div class="col-4">
