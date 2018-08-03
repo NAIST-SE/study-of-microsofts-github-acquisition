@@ -16,6 +16,8 @@ img {
 
 Sending survey is one of important process. We pay much attention to select the target and channel. We want to make sure this request does not disturb developers working. However, getting answers is very important too. We would like to get answers from our target, do not just people from somewhere.
 
+Following the rules of each project, we sent surveys via forums or mailing lists.
+
 <div class="spacer"></div>
 ## 1. Forums
 ---------
@@ -33,12 +35,4 @@ We posted on the most opened room, off-topic or general room. Specific room may 
 ![]({{ "/images/forumsAndMail/mailing2.png" | absolute_url }})
 <p id="chart-des"><i>CentOS-devel developers mailing lists page, taken from https://lists.centos.org/mailman/listinfo/centos-devel</i></p>
 
-Including Linux distributions and BSD, they also use within organization. Consequently, developers usually use mailing lists for their work. If we send survey by mailing lists, we can make sure developers receive survey participant request. Furthermore, because we send to developers mailing lists, less user will receive this mail. The request of mailing lists should be more personal than forums example for the forums,
-
-> Dear contributors, 
-
-For mailing list, we change it into..
-
-> Dear XXXXX developers,
-
-Both forums and mailing lists have “rules”. We have to read it before post or send something. If the rule do not let us to post, we do not post or send. If you violate, we may be banned. It is hard for you to send further survey on the banning forums.
+A mailing list is another chanel. By choosing developer mailing lists, we can eliminate users from our survey.

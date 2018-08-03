@@ -23,7 +23,7 @@ Understanding how do contributors of the Linux distributions and BSD families pe
 - Developers are more interested in technical aspects
 
 ### Target
-We target contributors of Linux distributions/kernel and BSD families because they are likely to FLOSS developers, anyone cannot controlled them, so they have a thought of themselves.
+We target contributors of Linux distributions/kernel and BSD families because they are likely to FLOSS developers, anyone cannot controlled them. Free is important and which may be influenced by the acquisition.
 
 ## 3. Survey platform
 We choose [Google forms](https://docs.google.com/forms/u/0/)  as survey platform because it is all free and easy to contribute. However, we found later that many people don’t like Google form because of privacy concerns.
