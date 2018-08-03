@@ -17,7 +17,7 @@ sitemap:
     changefreq: weekly
 ```
 
-###Change domain
+### Change domain
 You can change domain in line 7 of _config.yml
 ```
 url: "https://ammyblabla.github.io/study-of-microsofts-github-acquisition" # the base hostname & protocol for your site
