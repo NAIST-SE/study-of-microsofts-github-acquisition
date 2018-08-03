@@ -2,7 +2,7 @@
 layout: post
 title:  "Publishing the survey"
 date:   2018-08-02
-excerpt: "Survey cannot success if it is not sent."
+excerpt: "Survey cannot success if it is not sent. We sent survey to forums and mailing lists."
 image: "/images/survey_cover.png"
 comments: true
 sequence: 2

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Developer Perception to Microsoft’s Acquisition of GitHub
+title: Team
 description: This project can not be done if without these people.
 sitemap:
     priority: 0.7

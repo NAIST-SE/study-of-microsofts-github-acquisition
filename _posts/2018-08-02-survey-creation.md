@@ -2,7 +2,7 @@
 layout: post
 title:  "Survey Creation"
 date:   2018-08-02
-excerpt: "From finding inspirations, goal and motivation to implement our survey."
+excerpt: "We will show how we make a survey from inspirations, assumptions and target participants."
 image: "/images/survey_cover.png"
 comments: true
 sequence: 1 
