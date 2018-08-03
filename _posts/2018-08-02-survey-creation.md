@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Survey Creation"
-date:   2018-07-17
+date:   2018-08-02
 excerpt: "From finding inspirations, goal and motivation to implement our survey."
 image: "/images/survey_cover.png"
 comments: true

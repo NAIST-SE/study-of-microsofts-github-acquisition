@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Publishing the survey"
-date:   2018-07-18
+date:   2018-08-02
 excerpt: "Survey cannot success if it is not sent."
 image: "/images/survey_cover.png"
 comments: true

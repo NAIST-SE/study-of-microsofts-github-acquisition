@@ -4,7 +4,7 @@ title: Developer Perception to Microsoft’s Acquisition of GitHub
 description: Having a massive list of every element of a theme is useful for quick referencing and ideas. Here is every component of Massively!
 sitemap:
     priority: 0.7
-    lastmod: 2017-11-02
+    lastmod: 2018-08-02
     changefreq: weekly
 ---
 <link rel="stylesheet" href="{{ "/assets/css/table.css" | absolute_url }}">

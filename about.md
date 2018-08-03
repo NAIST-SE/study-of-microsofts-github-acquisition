@@ -4,7 +4,7 @@ title: Developer Perception to Microsoft’s Acquisition of GitHub
 description: This project can not be done if without these people.
 sitemap:
     priority: 0.7
-    lastmod: 2018-07-17
+    lastmod: 2018-08-02
     changefreq: never
 ---
 <h1>Team</h1>
