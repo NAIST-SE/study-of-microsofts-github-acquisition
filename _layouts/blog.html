@@ -61,11 +61,10 @@
 				</div>
 			</article>
 
-
-
 			<!-- Post -->
 			<section class="posts">
-				{% for post in site.posts %}
+				{% assign sorted = (site.posts | sort: 'sequence') | reversed %}
+				{% for post in sorted %}
 				<article>
 					<header>
 						<span class="date">{{ post.date | date_to_string }}</span>

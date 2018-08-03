@@ -5,6 +5,7 @@ date:   2018-08-02
 excerpt: "Survey cannot success if it is not sent."
 image: "/images/survey_cover.png"
 comments: true
+sequence: 2
 ---
 <link rel="stylesheet" href="{{ "/assets/css/chart.css" | absolute_url }}">
 <style type="text/css">

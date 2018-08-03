@@ -5,6 +5,7 @@ date:   2018-08-02
 excerpt: "From finding inspirations, goal and motivation to implement our survey."
 image: "/images/survey_cover.png"
 comments: true
+sequence: 1 
 ---
 ## 1. Related news
 - [Microsoft Buys GitHub: The Linux Foundation’s Reaction](https://www.linuxfoundation.org/blog/microsoft-buys-github-the-linux-foundations-reaction/)
