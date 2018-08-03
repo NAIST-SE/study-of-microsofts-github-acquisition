@@ -8,7 +8,6 @@ comments: true
 ---
 ## 1. Related news
 - [Microsoft Buys GitHub: The Linux Foundation’s Reaction](https://www.linuxfoundation.org/blog/microsoft-buys-github-the-linux-foundations-reaction/)
-  - There has been some evidence that the Linux Foundation reacted in a positive manner
 - [Why GitHub Can't Host the Linux Kernel Community](https://news.ycombinator.com/item?id=14972872)
 - [Linux Foundation: Microsoft's GitHub buy is a win for open source](https://www.zdnet.com/article/linux-foundation-microsofts-github-buy-is-a-win-for-open-source/)
 - [GitHub rivals gain from Microsoft acquisition but it's no mass exodus, yet](https://www.zdnet.com/article/github-rivals-gain-from-microsoft-acquisition-but-its-no-mass-exodus-yet/)
