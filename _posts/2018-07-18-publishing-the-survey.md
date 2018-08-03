@@ -68,3 +68,5 @@ You can find developers’ email by their GitHub. You get the developers GitHub 
 <p id="chart-des"><i>MX Linux contact form https://mxlinux.org/contact</i></p>
 
 Moreover there are “contact form”. We do not send via contact form because we do not sure our target receive this request or not. Some of them may be reach because developers monitor this form by themselves, but some of form sales monitor this form and may look over this request.
+
+Reference: https://whatis.techtarget.com/definition/mailing-list
