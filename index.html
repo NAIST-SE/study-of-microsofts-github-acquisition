@@ -18,6 +18,8 @@ sitemap:
 
 <head>
   {% include head.html %}
+  <script src="{{ "/assets/js/hackernews-share-button.js" | absolute_url }}"></script>
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b63e8217fd29c51"></script>
 </head>
 
 <body class="is-loading">
@@ -92,7 +94,12 @@ sitemap:
       {% comment %} <div class="comments-wrapper">
         {% include disqus.html %}
       </div> {% endcomment %}
-      <p><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-url="https://ammyblabla.github.io/microsoftGitHub/" data-dnt="true" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+      {% comment %} <div>
+        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-url="https://ammyblabla.github.io/microsoftGitHub/" data-dnt="true" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fammyblabla.github.io%2FmicrosoftGitHub%2F&layout=button_count&size=small&mobile_iframe=false&width=69&height=20&appId" width="69" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+        <hackernews-share-button href="https://ammyblabla.github.io/microsoftGitHub"></hackernews-share-button>        
+      <div> {% endcomment %}
+      <div class="addthis_inline_share_toolbox"></div>
     </div>
     <!-- Footer -->
     {% include foot.html %}
