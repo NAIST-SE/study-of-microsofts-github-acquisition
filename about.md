@@ -14,5 +14,5 @@ sitemap:
 - Shade Ruangwan, Doctoral student ([NAIST](http://isw3.naist.jp/Contents/Research/cs-05-en.html), Japan)
 - Yusuf Sulistyo Nugroho, Doctoral student ([NAIST](http://isw3.naist.jp/Contents/Research/cs-05-en.html), Japan)
 - Kenichi Matsumoto, Professor ([NAIST](http://isw3.naist.jp/Contents/Research/cs-05-en.html), Japan)
-- Arnon Rungsawang, Associate Professor ([Kasetsart University](http://mike.cpe.ku.ac.th), Thailand)
-- Pattara Leelaprute, Assistant Professor ([Kasetsart University](https://www.cpe.ku.ac.th/~pattara/), Thailand)
+- Arnon Rungsawang, Associate Professor ([Kasetsart University](https://ku.ac.th), Thailand)
+- Pattara Leelaprute, Assistant Professor ([Kasetsart University](https://ku.ac.th/), Thailand)
