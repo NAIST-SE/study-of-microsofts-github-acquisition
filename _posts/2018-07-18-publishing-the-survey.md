@@ -36,8 +36,6 @@ We posted on the most opened room, off-topic or general room. Specific room may 
 ![]({{ "/images/forumsAndMail/mailing3.png" | absolute_url }})
 <p id="chart-des"><i>Email for Calculate Linux mailing lists</i></p>
 
-A mailing list is a list of people who subscribe to a periodic mailing distribution on a particular topic. On the Internet, mailing lists include each person's email address rather than a postal address. Mailing lists have become a popular way for Internet users to keep up with topics they're interested in. Many software producers and other vendors are now using them as a way to keep in touch with customers. 
-
 ![]({{ "/images/forumsAndMail/mailing2.png" | absolute_url }})
 <p id="chart-des"><i>CentOS-devel developers mailing lists page, taken from https://lists.centos.org/mailman/listinfo/centos-devel</i></p>
 
@@ -68,5 +66,3 @@ You can find developers’ email by their GitHub. You get the developers GitHub 
 <p id="chart-des"><i>MX Linux contact form https://mxlinux.org/contact</i></p>
 
 Moreover there are “contact form”. We do not send via contact form because we do not sure our target receive this request or not. Some of them may be reach because developers monitor this form by themselves, but some of form sales monitor this form and may look over this request.
-
-Reference: https://whatis.techtarget.com/definition/mailing-list
