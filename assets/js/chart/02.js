@@ -98,7 +98,8 @@ $(function() {
     
           },
           y: 10, // 10 pixels down from the top
-          style: style
+          style: style,
+          allowOverlap: true,
         }
       }]
     });
