@@ -346,7 +346,7 @@ $(function () {
           cursor: 'pointer',
           dataLabels: {
             style: {
-              fontSize: '16px',
+              fontSize: '13px',
               fontFamily: 'Helvetica'
             },
             enabled: true,
