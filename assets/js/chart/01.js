@@ -44,7 +44,8 @@ var dataLabels = {
     return this.y + ' ('+ Highcharts.numberFormat(pcnt,1) + ')%';
   },
   y: 10, // 10 pixels down from the top
-  style: style
+  style: style,
+  allowOverlap: true
 }
 
 var createPieLabel = function(label, data) {
