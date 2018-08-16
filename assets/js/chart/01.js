@@ -180,7 +180,7 @@ $(function() {
           cursor: 'pointer',
           dataLabels: {
             enabled: true,
-            format: '<b>{point.name}: {point.y}</b> ({point.percentage:.1f} %)',
+            format: '<b>{point.name}: {point.y}</b> ({point.percentage:.1f}%)',
             distance: -70,
             style: style,
             allowOverlap: true,
@@ -355,7 +355,7 @@ $(function() {
               cursor: 'pointer',
               dataLabels: {
                   enabled: true,
-                  format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                  format: '<b>{point.name}</b>: {point.percentage:.1f}%',
                   style: style,
                   allowOverlap: true,
               }
