@@ -133,7 +133,7 @@ var dataLabels = function (chart) {
     color: '#FFFFFF',
     formatter: function () {
       var pcnt = (this.y / config[chart].data.reduce((a, b) => a + b, 0)) * 100;
-      return this.y + ' (' + Highcharts.numberFormat(pcnt, 1) + ')%';
+      return this.y + ' (' + Highcharts.numberFormat(pcnt, 1) + '%)';
 
     },
     y: 10, // 10 pixels down from the top
@@ -338,7 +338,7 @@ $(function () {
         text: config['5-3'].question
       },
       tooltip: {
-        pointFormat: '{point.y}({point.percentage:.1f}%)</b>'
+        pointFormat: '{point.y} ({point.percentage:.1f}%)</b>'
       },
       plotOptions: {
         pie: {
@@ -350,7 +350,7 @@ $(function () {
               fontFamily: 'Helvetica'
             },
             enabled: true,
-            format: '<b>{point.name}</b>: {point.y}({point.percentage:.1f}%)',
+            format: '<b>{point.name}</b>: {point.y} ({point.percentage:.1f}%)',
             distance: -10,
             allowOverlap: true,
           }
@@ -379,7 +379,7 @@ $(function () {
         text: config['2-4'].question
       },
       tooltip: {
-        pointFormat: '{point.y}({point.percentage:.1f}%)</b>'
+        pointFormat: '{point.y} ({point.percentage:.1f}%)</b>'
       },
       plotOptions: {
         pie: {

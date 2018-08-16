@@ -94,7 +94,7 @@ $(function() {
           color: '#FFFFFF',
           formatter: function(){
             var pcnt = (this.y / responses) * 100;
-            return this.y + ' ('+ Highcharts.numberFormat(pcnt,1) + ')%';
+            return this.y + ' ('+ Highcharts.numberFormat(pcnt,1) + '%)';
     
           },
           y: 10, // 10 pixels down from the top
@@ -123,7 +123,7 @@ $(function() {
           color: '#FFFFFF',
           formatter: function(){
             var pcnt = (this.y / responses) * 100;
-            return this.y + ' ('+ Highcharts.numberFormat(pcnt,1) + ')%';
+            return this.y + ' ('+ Highcharts.numberFormat(pcnt,1) + '%)';
     
           },
           y: 10, // 10 pixels down from the top
@@ -151,7 +151,7 @@ $(function() {
           color: '#FFFFFF',
           formatter: function(){
             var pcnt = (this.y / responses) * 100;
-            return this.y + ' ('+ Highcharts.numberFormat(pcnt,1) + ')%';
+            return this.y + ' ('+ Highcharts.numberFormat(pcnt,1) + '%)';
     
           },
           y: 10, // 10 pixels down from the top
