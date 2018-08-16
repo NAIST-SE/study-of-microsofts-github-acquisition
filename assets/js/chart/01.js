@@ -156,7 +156,7 @@ $(function() {
                   return config['1-1'].data[this.x][1] + '  (' + Highcharts.numberFormat(percent, 1) + '%)'
               },
               style: style,
-              allowOverlap = true,
+              allowOverlap: true,
           }
       }]
     });
@@ -183,7 +183,7 @@ $(function() {
             format: '<b>{point.name}: {point.y}</b> ({point.percentage:.1f} %)',
             distance: -70,
             style: style,
-            allowOverlap = true,
+            allowOverlap: true,
           },
         }
       },
@@ -299,7 +299,7 @@ $(function() {
           },
           y: 10, // 10 pixels down from the top
           style: style,
-          allowOverlap = true,
+          allowOverlap: true,
         }
       }]
     });
@@ -328,7 +328,7 @@ $(function() {
           },
           y: 10, // 10 pixels down from the top
           style: style,
-          allowOverlap = true,
+          allowOverlap: true,
         }
       }]
     });
@@ -357,7 +357,7 @@ $(function() {
                   enabled: true,
                   format: '<b>{point.name}</b>: {point.percentage:.1f} %',
                   style: style,
-                  allowOverlap = true,
+                  allowOverlap: true,
               }
           }
       },
