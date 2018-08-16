@@ -352,6 +352,7 @@ $(function () {
             enabled: true,
             format: '<b>{point.name}</b>: {point.y}({point.percentage:.1f}%)',
             distance: -10,
+            allowOverlap: true,
           }
         }
       },
@@ -391,7 +392,8 @@ $(function () {
               fontSize: '16px',
               fontFamily: 'Helvetica'
             },
-            distance: 0
+            distance: 0,
+            allowOverlap: true,
           }
         }
       },
