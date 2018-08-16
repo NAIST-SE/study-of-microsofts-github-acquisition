@@ -71,7 +71,7 @@ var config = {
   '3-2': {
     type: 'column',
     data: [21, 25, 30, 24, 24, 11],
-    question: 'Do you think it would be a good idea to move the project away from GitHub?',
+    question: 'If the project will be moved away from GitHub to another platform, how much additional effort will be required to get accustomed to the new platform?',
     max: 50,
     label: effortLabel
   },
@@ -99,7 +99,7 @@ var config = {
   '4-4': {
     type: 'column',
     data: [14, 27, 18, 9, 7, 0],
-    question: 'Do you think it would be a good idea to move the project away from GitHub?',
+    question: 'How much additional effort will be required to get accustomed to the new platform?',
     max: 25,
     label: effortLabel
   },
