@@ -350,7 +350,7 @@ $(function () {
               fontFamily: 'Helvetica'
             },
             enabled: true,
-            format: '<b>{point.name}</b>: {point.y} ({point.percentage:.1f}%)',
+            format: '{point.name}: {point.y} ({point.percentage:.1f}%)',
             distance: -10,
             allowOverlap: true,
           }
@@ -387,7 +387,7 @@ $(function () {
           cursor: 'pointer',
           dataLabels: {
             enabled: true,
-            format: '<b>{point.name}</b>:{point.percentage:.1f}%',
+            format: '<b>{point.name}</b>: {point.percentage:.1f}%',
             style: {
               fontSize: '16px',
               fontFamily: 'Helvetica'
