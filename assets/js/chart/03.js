@@ -266,7 +266,7 @@ $(function () {
         text: config['4-4'].question
       },
       xAxis: xAxis,
-      yAxis: yAxis(config['4-4'].max),
+      yAxis: yAxis(30),
       legend: {
         enabled: false
       },
@@ -350,7 +350,7 @@ $(function () {
               fontFamily: 'Helvetica'
             },
             enabled: true,
-            format: '{point.name}: {point.y} ({point.percentage:.1f}%)',
+            format: '<b>{point.name}</b>: {point.y} ({point.percentage:.1f}%)',
             distance: -10,
             allowOverlap: true,
           }
