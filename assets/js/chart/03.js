@@ -338,7 +338,7 @@ $(function () {
         text: config['5-3'].question
       },
       tooltip: {
-        pointFormat: '{point.y} ({point.percentage:.1f}%)</b>'
+        pointFormat: '{point.y}({point.percentage:.1f}%)</b>'
       },
       plotOptions: {
         pie: {
@@ -350,7 +350,7 @@ $(function () {
               fontFamily: 'Helvetica'
             },
             enabled: true,
-            format: '<b>{point.name}</b>: {point.y} ({point.percentage:.1f}%)',
+            format: '<b>{point.name}</b>: {point.y}({point.percentage:.1f}%)',
             distance: -10,
           }
         }
@@ -378,7 +378,7 @@ $(function () {
         text: config['2-4'].question
       },
       tooltip: {
-        pointFormat: '{point.y} ({point.percentage:.1f}%)</b>'
+        pointFormat: '{point.y}({point.percentage:.1f}%)</b>'
       },
       plotOptions: {
         pie: {
@@ -386,7 +386,7 @@ $(function () {
           cursor: 'pointer',
           dataLabels: {
             enabled: true,
-            format: '<b>{point.name}</b>: {point.percentage:.1f}%',
+            format: '<b>{point.name}</b>:{point.percentage:.1f}%',
             style: {
               fontSize: '16px',
               fontFamily: 'Helvetica'
